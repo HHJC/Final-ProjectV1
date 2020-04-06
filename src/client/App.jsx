@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import NavBar from "./components/Navbar";
 import User from "./components/User";
 import Recipes from "./components/Recipes";
-import StoryBooks from "./Views/StoryBooks";
+import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
 
 
@@ -22,7 +22,7 @@ class App extends React.Component {
           <Route exact path="/User">
             <User />
           </Route>
-          <Route exact path="/Views/StoryBooks">
+          <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
           </Route>
           <Route exact path="/Views/RecipeVideos">
@@ -31,6 +31,9 @@ class App extends React.Component {
           <Route exact path="/Recipes">
             <Recipes />
           </Route>
+          {/* <Route exact path="/Recipes">
+            <Recipes />
+          </Route> */}
         </Switch>
       </BrowserRouter>
     );
