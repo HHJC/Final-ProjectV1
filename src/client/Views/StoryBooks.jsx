@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 import  Container  from 'react-bootstrap/Container';
 const StoryBooks = () => {
   return (
-    <Container className="main row justify-content-center"style={{ width: "90rem" }}>
-      <Card style={{ width: "18rem" }}>
+    <Container className="main m-5 row justify-content-center"style={{ width: "90rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4"  style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Story Book One</Card.Title>
@@ -18,7 +18,7 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4"  style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Story Book Two</Card.Title>
@@ -30,7 +30,7 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4"  style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Story Book Three</Card.Title>
@@ -42,7 +42,7 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4"  style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Story Book Four</Card.Title>

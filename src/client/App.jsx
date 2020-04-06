@@ -3,7 +3,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/Navbar";
 import User from "./components/User";
+import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBooks";
+import RecipeVideos from "./Views/RecipeVideos";
 
 
 
@@ -22,6 +24,12 @@ class App extends React.Component {
           </Route>
           <Route exact path="/Views/StoryBooks">
             <StoryBooks />
+          </Route>
+          <Route exact path="/Views/RecipeVideos">
+            <RecipeVideos />
+          </Route>
+          <Route exact path="/Recipes">
+            <Recipes />
           </Route>
         </Switch>
       </BrowserRouter>
