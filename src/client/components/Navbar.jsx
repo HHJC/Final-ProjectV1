@@ -1,27 +1,30 @@
+
 import React from "react";
-import { Navbar } from "react-bootstrap";
-import { Nav } from "react-bootstrap";
-// import { Button } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
+import  Navbar  from "react-bootstrap/Navbar";
+import  Nav  from "react-bootstrap/Nav";
+import  Button  from "react-bootstrap/Button";
 // import { Form } from "react-bootstrap";
 // import { FormControl } from "react-bootstrap";
 //import { NavLink } from "react-router-dom";
 
-class NavBar extends React.Component {
-  render() {
+const NavBar = () => {
+  const history = useHistory();
+
+
     return (
         <div>
         <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">Learn & Play</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+        <Button onClick={() => history.push("/User")} className="btn btn-outline-warning mx-1">UserSelect</Button>
+        <Button onClick={() => history.push("/")} className="btn btn-outline-warning mx-1">Home</Button>
         </Nav>
       
       </Navbar>
       </div>
     );
-  }
+  
 }
 
 export default NavBar;
