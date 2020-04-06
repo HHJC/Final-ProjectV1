@@ -17,7 +17,7 @@ const NavBar = () => {
 
     return (
         <div>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="info" variant="light">
         <Navbar.Brand href="#home">Learn & Play</Navbar.Brand>
         <Nav className="mr-auto">
         <Button onClick={() => history.push("/User")} className="btn btn-warning mx-1"><FaUserAlt/></Button>
