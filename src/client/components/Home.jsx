@@ -51,7 +51,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
      Find a story Book and read along with them.
     </Card.Text>
-      <Button onClick={()=>history.push('./Views/StoryBooks')} className="btn btn-warning mx-1"><GiBookshelf/>Pick your Story</Button>
+      <Button onClick={()=>history.push('./Views/StoryBookView/StoryBooks')} className="btn btn-warning mx-1"><GiBookshelf/>Pick your Story</Button>
   </Card.Body>
 </Card>
 
@@ -62,7 +62,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Have fun with these pictures an desriptions of Animals.
     </Card.Text>
-    <Button className="btn btn-warning mx-1"><FaDog/>What Creature Is That</Button>
+    <Button onClick={()=>history.push('./Views/Animalsview/Animals')} className="btn btn-warning mx-1"><FaDog/>What Creature Is That</Button>
   </Card.Body>
 </Card>
 

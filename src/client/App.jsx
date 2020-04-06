@@ -6,6 +6,7 @@ import User from "./components/User";
 import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
+import Animals from "./Views/Animalsview/Animals";
 
 
 
@@ -31,9 +32,9 @@ class App extends React.Component {
           <Route exact path="/Recipes">
             <Recipes />
           </Route>
-          {/* <Route exact path="/Recipes">
-            <Recipes />
-          </Route> */}
+          <Route exact path="/Views/Animalsview/Animals">
+            <Animals />
+          </Route>
         </Switch>
       </BrowserRouter>
     );
