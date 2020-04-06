@@ -3,6 +3,9 @@ import Card from "react-bootstrap/Card";
 //import  Link  from 'react-bootstrap/Link';
 import Button from "react-bootstrap/Button";
 import  Container  from 'react-bootstrap/Container';
+import {GiSpellBook} from 'react-icons/gi'
+
+
 const StoryBooks = () => {
   return (
     <Container className="main m-5 row justify-content-center"style={{ width: "90rem" }}>
@@ -14,7 +17,7 @@ const StoryBooks = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button className="btn btn-warning mx-1">Start your Story</Button>
+          <Button className="btn btn-warning mx-1"><GiSpellBook/>Start your Story</Button>
         </Card.Body>
       </Card>
 
@@ -26,7 +29,7 @@ const StoryBooks = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button className="btn btn-warning mx-1">Start your Story</Button>
+          <Button className="btn btn-warning mx-1"><GiSpellBook/>Start your Story</Button>
         </Card.Body>
       </Card>
 
@@ -38,7 +41,7 @@ const StoryBooks = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button className="btn btn-warning mx-1">Start your Story</Button>
+          <Button className="btn btn-warning mx-1"><GiSpellBook/>Start your Story</Button>
         </Card.Body>
       </Card>
 
@@ -50,7 +53,7 @@ const StoryBooks = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button className="btn btn-warning mx-1">Start your Story</Button>
+          <Button className="btn btn-warning mx-1"><GiSpellBook/>Start your Story</Button>
         </Card.Body>
       </Card>
 

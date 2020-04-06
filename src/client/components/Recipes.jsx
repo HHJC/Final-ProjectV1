@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Container from 'react-bootstrap/Container';
@@ -7,6 +8,9 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import Button from 'react-bootstrap/Button';
 
 const Recipes = () => {
+    const history = useHistory();
+    
+
     return(
     <Container>
         
@@ -21,7 +25,7 @@ const Recipes = () => {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button variant="warning" className="btn mx-1">Back To Video</Button>
+    <Button onClick={()=>history.push('./Views/RecipeVideos')} variant="warning" className="btn mx-1">Back To Video</Button>
     </Card.Footer>
   </Card>
   <Card>
@@ -34,7 +38,7 @@ const Recipes = () => {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button variant="outline-warning" className="btn mx-1">Back To Video</Button>
+    <Button onClick={()=>history.push('./Views/RecipeVideos')} variant="outline-warning" className="btn mx-1">Back To Video</Button>
     </Card.Footer>
   </Card>
   <Card>
@@ -48,7 +52,7 @@ const Recipes = () => {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button className="btn btn-warning mx-1">Back To Video</Button>
+    <Button onClick={()=>history.push('./Views/RecipeVideos')} className="btn btn-warning mx-1">Back To Video</Button>
     </Card.Footer>
   </Card>
 </CardDeck>
@@ -80,7 +84,7 @@ const Recipes = () => {
     <Card.Text>
       With supporting text below as a natural lead-in to additional content.
     </Card.Text>
-    <Button className="btn btn-warning mx-1">Back To Video</Button>
+    <Button onClick={()=>history.push('./Views/RecipeVideos')} className="btn btn-warning mx-1">Back To Video</Button>
   </Card.Body>
 </Card>
 </Container>
