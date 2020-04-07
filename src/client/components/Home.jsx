@@ -29,7 +29,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Digital Flash Cards to help you teach your child there ABC's.
     </Card.Text>
-    <Button /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-warning mx-1"><GiCardRandom/>Flah Cards</Button>
+    <Button /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-warning mx-1"><GiCardRandom/>Flash Cards</Button>
   </Card.Body>
 </Card>
 
