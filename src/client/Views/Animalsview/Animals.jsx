@@ -4,22 +4,27 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
 class Animals extends React.Component {
- constructor(props){
-    super(props)
-    this.state = {
-        word:"",
-        type:"",
-        definitions:[],
-        definition:"",
-        image_url:""
+  constructor(props){
+     super(props)
+     this.state = {
+         data: {
+           definitions: [{
+             type: '',
+             definition: '',
+             example: '',
+             image_url: '',
+             emoji: ''
+           }]
+         }
+ 
+     }
+  }
+ 
 
-    }
- }
 
 
 
-
- componentDidMount = () => {fetch("https://owlbot.info/api/v4/dictionary/dog",
+ componentDidMount = () => { fetch("https://owlbot.info/api/v4/dictionary/dog",
   {
      method: 'GET',
      headers: { 'Content-Type': 'application/json', "Authorization": "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a" },
@@ -27,7 +32,7 @@ class Animals extends React.Component {
      //body: JSON.stringify({type, word, definitions  })
  })
  .then(res => res.json())
- .then(data => this.setState({word: data.word, type: data.definitions.type ,definition: data.definitions.definition, image_url: data.definitions.image_url}))}
+ .then(data => this.setState({data: data}))}
  
  
  
@@ -41,9 +46,9 @@ class Animals extends React.Component {
       <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-  <Card.Title>{this.state.word}</Card.Title>
+  <Card.Title>{this.state.data.word}</Card.Title>
           <Card.Text>
-           {this.state.definitions.definition}
+           {this.state.data.definitions[0].definition}
            
          
            
