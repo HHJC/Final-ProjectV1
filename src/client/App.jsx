@@ -6,8 +6,10 @@ import User from "./components/User";
 import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
-import Animals from "./Views/Animalsview/Animals";
+import Animals from "./components/Animals";
 import Space from './Views/Space/Space';
+import AnimalCard from './Views/Animalsview/AnimalCard';
+import WordCard from './Views/Words/WordCard';
 
 
 
