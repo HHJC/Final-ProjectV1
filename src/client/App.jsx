@@ -7,6 +7,7 @@ import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
 import Animals from "./Views/Animalsview/Animals";
+import Space from './Views/Space/Space';
 
 
 
@@ -34,6 +35,9 @@ class App extends React.Component {
           </Route>
           <Route exact path="/Views/Animalsview/Animals">
             <Animals />
+          </Route>
+          <Route exact path="/Views/Space/Space">
+            <Space />
           </Route>
         </Switch>
       </BrowserRouter>

@@ -85,7 +85,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Gaze at the stars with you little ones and learn there stories.
     </Card.Text>
-    <Button className="btn btn-secondary mx-1"><GiStarSwirl /> Lets Star Gaze</Button>
+    <Button onClick={()=>history.push('./Views/Space/Space')} className="btn btn-secondary mx-1"><GiStarSwirl /> Lets Star Gaze</Button>
   </Card.Body>
 </Card>
 </Container>
