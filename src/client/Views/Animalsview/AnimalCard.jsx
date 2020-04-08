@@ -2,6 +2,8 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import { useEffect, useState } from "react";
+import SingleCard from './SingleCard';
+
 //import Button from "react-bootstrap/Button";
 
 
@@ -51,7 +53,9 @@ const AnimalCard = () => {
             Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
         }},);
         let card = await res.json();
-        setWord(card.word);
+        // console.log('im a card: ' + card);
+        setWord(word.push(card));
+        console.log(word);
       })();}
   }
 
@@ -61,7 +65,14 @@ const AnimalCard = () => {
 
 
     return(
-      <p>{`${word}`}</p>
+      <div>
+        {word.map(word => {
+          return <SingleCard key={word.id} word={word} />
+        })}
+      </div>
+      
+      
+
     )
 };
 
