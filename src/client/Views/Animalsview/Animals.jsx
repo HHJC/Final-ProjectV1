@@ -56,7 +56,7 @@ class Animals extends React.Component {
           <Button
             /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-warning mx-1"
           >
-            Flah Cards
+            Flash Cards
           </Button>
         </Card.Body>
       </Card>
