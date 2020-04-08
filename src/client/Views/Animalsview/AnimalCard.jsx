@@ -37,11 +37,12 @@ const AnimalCard = () => {
   "fish",
   "duck"]);
 
-  const [word,setWord] = useState([]);
+  const [word,setWord] = useState("");
   const [definition,setDefinition] = useState([]);
   const [pronunciation,setPronunciation] = useState("");
 
   function getAnimals(animals){
+    
     for(let i = 0; i < animals.length; i++){
       (async () => {
         let res = await fetch(`https://owlbot.info/api/v4/dictionary/${animals[i]}`,{

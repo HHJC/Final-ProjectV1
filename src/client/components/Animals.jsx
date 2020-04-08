@@ -1,14 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import AnimalCard from "./../Views/Animalsview/AnimalCard";
+//import AnimalCard from "./../Views/Animalsview/AnimalCard";
 //import Button from "react-bootstrap/Button";
 
 class Animals extends React.Component {
-  constructor(props) {
+ /*  constructor(props) {
     super(props);
     this.state = {
       data: {
+        
         definitions: [
           {
             type: "",
@@ -20,9 +21,9 @@ class Animals extends React.Component {
         ],
       },
     };
-  }
-
-  wordArray = [
+  } */
+/* 
+  animals = [
     "dog",
     "cat",
     "owl",
@@ -54,34 +55,26 @@ class Animals extends React.Component {
   ];
 
   componentDidMount = () => {
-    fetch(`https://owlbot.info/api/v4/dictionary/dog`, {
+    for(let i = 0; i < animals.length; i++){
+    fetch(`https://owlbot.info/api/v4/dictionary/${animals[i]}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
         Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
       },
-
+    
       //body: JSON.stringify({type, word, definitions  })
     })
       .then((res) => res.json())
       .then((data) => this.setState({ data: data }))
-      .then(console.log(this.state.data + "This is not being executed."));
-  };
+      
+  }; */
 
   render() {
     return (
-      <React.Fragment>
-        <div className="container">
-        <div>
-        <p>
-          This is the correct component.
-        </p>
-      </div>
-          <AnimalCard data={this.state.data} />
-        </div>
-      </React.Fragment>
+    <h1>{word}</h1>
     );
-  }
+    }
 }
 export default Animals;
 
