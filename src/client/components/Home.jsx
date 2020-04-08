@@ -20,9 +20,8 @@ import { FaBookReader } from 'react-icons/fa';
 
   return (
   
-    <Container className="main m-5 row justify-content-center" style={{width:'100rem'}}>
+    <Container className="main m-5 row justify-content-center col-9" style={{width:'100rem'}}>
    
-
 <Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2017/03/02/16/32/font-2111748__480.jpg" />
   <Card.Body>
@@ -30,7 +29,11 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Digital Flash Cards to help you teach your child there ABC's.
     </Card.Text>
+<<<<<<< HEAD
+    <Button onClick={()=>history.push('./Views/ABCview/FlashCard')}  className="btn btn-danger mx-1 mt-auto"><GiCardRandom /> Flash Cards</Button>
+=======
     <Button /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-warning mx-1"><GiCardRandom/>Flash Cards</Button>
+>>>>>>> f9e9f5a873df1a16a909b0f82c61d59a81759d5a
   </Card.Body>
 </Card>
 
@@ -41,7 +44,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
      A way to teach your kids words with flash cards
     </Card.Text>
-    <Button className="btn btn-warning mx-1"><FaBookReader/> Say It With Me</Button>
+    <Button className="btn btn-warning mx-1 mt-auto"><FaBookReader/> Say It With Me</Button>
   </Card.Body>
 </Card>
 
@@ -52,7 +55,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
      Find a story Book and read along with them.
     </Card.Text>
-      <Button onClick={()=>history.push('./Views/StoryBookView/StoryBooks')} className="btn btn-warning mx-1"><GiBookshelf/>Pick your Story</Button>
+      <Button onClick={()=>history.push('./Views/StoryBookView/StoryBooks')} className="btn btn-success mx-1"><GiBookshelf/>Pick your Story</Button>
   </Card.Body>
 </Card>
 
@@ -85,7 +88,11 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Gaze at the stars with you little ones and learn there stories.
     </Card.Text>
+<<<<<<< HEAD
+    <Button className="btn btn-danger mx-1"><GiStarSwirl /> Lets Star Gaze</Button>
+=======
     <Button onClick={()=>history.push('./Views/Space/Space')} className="btn btn-secondary mx-1"><GiStarSwirl /> Lets Star Gaze</Button>
+>>>>>>> f9e9f5a873df1a16a909b0f82c61d59a81759d5a
   </Card.Body>
 </Card>
 </Container>

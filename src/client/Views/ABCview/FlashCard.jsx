@@ -3,7 +3,7 @@ import  Card  from 'react-bootstrap/Card';
 import  Container  from 'react-bootstrap/Container';
 import  Button  from 'react-bootstrap/Button';
 
-const FlachCard = () => {
+const FlahCard = () => {
     return(
         <Container className="main m-5 row justify-content-center" style={{width:'100rem'}}>
             <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: '18rem' }}>
@@ -19,4 +19,4 @@ const FlachCard = () => {
         </Container>
     )
 }
-export default FlachCard;
+export default FlahCard;
