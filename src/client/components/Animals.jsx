@@ -1,15 +1,14 @@
-import React from "react";
+ import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 //import AnimalCard from "./../Views/Animalsview/AnimalCard";
 //import Button from "react-bootstrap/Button";
 
 class Animals extends React.Component {
- /*  constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
-      data: {
-        
+      currentWord: {
         definitions: [
           {
             type: "",
@@ -20,9 +19,10 @@ class Animals extends React.Component {
           },
         ],
       },
+      allAnimals: [],
     };
-  } */
-/* 
+  }
+
   animals = [
     "dog",
     "cat",
@@ -54,29 +54,54 @@ class Animals extends React.Component {
     "duck",
   ];
 
-  componentDidMount = () => {
-    for(let i = 0; i < animals.length; i++){
-    fetch(`https://owlbot.info/api/v4/dictionary/${animals[i]}`, {
+  fetchWords(url) {
+    fetch(`https://owlbot.info/api/v4/dictionary/${url}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
+        Authorization: "Token 3ec95eb2727f567db0786d8806fdd6f32a001f1a",
       },
-    
+
       //body: JSON.stringify({type, word, definitions  })
     })
       .then((res) => res.json())
-      .then((data) => this.setState({ data: data }))
-      
-  }; */
+      .then((currentWord) => this.setState({ currentWord }))
+      .then(() =>
+        this.setState({
+          allAnimals: [...this.state.allAnimals, this.state.currentWord],
+        })
+      )
+      .catch((err) => console.log(err));
+  }
+
+  componentDidMount = () => {
+    for (let i = 0; i < this.animals.length; i++) {
+      const url = this.animals[i];
+      this.fetchWords(url);
+    }
+  };
 
   render() {
     return (
-    <h1>{word}</h1>
+      <Container
+        className="main m-5 row justify-content-center"
+        style={{ width: "100rem" }}
+      >
+        {this.state.allAnimals.map((animal) => (
+          <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>{animal.word}</Card.Title>
+              <Card.Text>{animal.definitions[0].definition}</Card.Text>
+              
+            </Card.Body>
+          </Card>
+        ))}
+      </Container>
     );
-    }
+  }
 }
-export default Animals;
+export default Animals; 
 
 // {definitions:
 // [ { type: 'noun',

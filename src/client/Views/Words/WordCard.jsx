@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 
@@ -17,7 +17,7 @@ const WordCard = (props) => {
   ));
 };
 
-export default WordCard;
+export default WordCard; */
 
 // {definitions:
 // [ { type: 'noun',

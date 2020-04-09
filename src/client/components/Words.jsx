@@ -1,15 +1,15 @@
 import React from "react";
-//import Card from "react-bootstrap/Card";
-//import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import WordCard from "../Views/Words/WordCard";
+//import Container from "react-bootstrap/Container";
+//import WordCard from "../Views/Words/WordCard";
 //import Button from "react-bootstrap/Button";
 
 class Words extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: {
+      currentWord: {
         definitions: [
           {
             type: "",
@@ -20,27 +20,32 @@ class Words extends React.Component {
           },
         ],
       },
+      allWords: [],
     };
   }
 
   wordArray = [
-    "a",
+    "am",
+    "at",
+    "all",
     "and",
     "away",
     "big",
     "blue",
+    "be",
+    "black",
+    "brown",
+    "but",
     "can",
     "come",
     "down",
     "find",
-    "for",
     "funny",
     "go",
     "help",
     "here",
     "I",
     "in",
-    "is",
     "it",
     "jump",
     "little",
@@ -64,17 +69,6 @@ class Words extends React.Component {
     "where",
     "yellow",
     "you",
-    "all",
-    "am",
-    "are",
-    "at",
-    "ate",
-    "be",
-    "black",
-    "brown",
-    "but",
-    "came",
-    "did",
     "do",
     "eat",
     "four",
@@ -93,7 +87,6 @@ class Words extends React.Component {
     "out",
     "please",
     "pretty",
-    "ran",
     "ride",
     "saw",
     "say",
@@ -109,33 +102,57 @@ class Words extends React.Component {
     "want",
     "was",
     "well",
-    "went",
     "what",
     "white",
     "who",
     "will",
     "with",
-    "yes"
+    "yes",
   ];
 
-  componentDidMount = () => {
-    fetch(`https://owlbot.info/api/v4/dictionary/${this.wordArray}`, {
+  fetchWords(url) {
+    fetch(`https://owlbot.info/api/v4/dictionary/${url}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
+        Authorization: "Token 3ec95eb2727f567db0786d8806fdd6f32a001f1a",
       },
 
       //body: JSON.stringify({type, word, definitions  })
     })
       .then((res) => res.json())
-      .then((data) => this.setState({ data: data }));
+      .then((currentWord) => this.setState({ currentWord }))
+      .then(() =>
+        this.setState({
+          allWords: [...this.state.allWords, this.state.currentWord],
+        })
+      )
+      .catch((err) => console.log(err));
+  }
+
+  componentDidMount = () => {
+    for (let i = 0; i < this.wordArray.length; i++) {
+      const url = this.wordArray[i];
+      this.fetchWords(url);
+    }
   };
 
   render() {
     return (
-      <Container className="main">
-        <WordCard data={this.state.data} />
+      <Container
+        className="main m-5 row justify-content-center"
+        style={{ width: "100rem" }}
+      >
+        {this.state.allWords.map((words) => (
+          <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>{words.word}</Card.Title>
+              <Card.Text>{words.definitions[0].definition}</Card.Text>
+              <Card.Footer>{words.definitions[0].type}</Card.Footer>
+            </Card.Body>
+          </Card>
+        ))}
       </Container>
     );
   }

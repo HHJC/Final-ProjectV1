@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import { useEffect, useState } from "react";
@@ -51,7 +51,7 @@ const AnimalCard = () => {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
+            Authorization: "Token 3ec95eb2727f567db0786d8806fdd6f32a001f1a",
         }},);
         let card = await res.json();
         // console.log('im a card: ' + card);
@@ -77,7 +77,7 @@ const AnimalCard = () => {
     )
 };
 
-export default AnimalCard;
+export default AnimalCard; */
 
 // {definitions:
 // [ { type: 'noun',

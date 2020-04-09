@@ -6,10 +6,11 @@ import User from "./components/User";
 import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
-import Animals from "./components/Animals";
 import Space from './Views/Space/Space';
-import AnimalCard from './Views/Animalsview/AnimalCard';
-import WordCard from './Views/Words/WordCard';
+import Words from "./components/Words";
+import Animals from "./components/Animals";
+//import AnimalCard from './Views/Animalsview/AnimalCard';
+//import WordCard from './Views/Words/WordCard';
 
 
 
@@ -35,11 +36,11 @@ class App extends React.Component {
           <Route exact path="/Recipes">
             <Recipes />
           </Route>
-          <Route exact path="/Views/Animalsview/Animals">
-            <AnimalCard />
+          <Route exact path="/Animals">
+            <Animals />
           </Route>
-          <Route exact path="/Views/Words/WordCard">
-            <WordCard />
+          <Route exact path="/Words">
+            <Words />
           </Route>
           <Route exact path="/Views/Space/Space">
             <Space />

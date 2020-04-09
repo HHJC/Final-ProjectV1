@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 
 class SingleCard extends React.Component {
   render() {
@@ -8,4 +8,4 @@ class SingleCard extends React.Component {
   }
 }
 
-export default SingleCard;
+export default SingleCard; */
