@@ -20,10 +20,10 @@ import { FaBookReader } from 'react-icons/fa';
 
   return (
   
-    <Container className="main m-5 row justify-content-center col-9" style={{width:'100rem'}}>
+    <Container className="main row d-flex justify-content-center m-auto p-10" style={{width:'100rem'}}>
    
-<Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2017/03/02/16/32/font-2111748__480.jpg" />
+<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2017/03/02/16/32/font-2111748__480.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your ABC's</Card.Title>
     <Card.Text>
@@ -33,8 +33,8 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://mrprintables.com/wp-content/uploads/2017/04/alphabet-printables-category-alphabet-flash-cards.jpg" />
+<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://mrprintables.com/wp-content/uploads/2017/04/alphabet-printables-category-alphabet-flash-cards.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your Words</Card.Title>
     <Card.Text>
@@ -44,19 +44,19 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/illustration-story-book-cartoon-princesses-princes-front-castle-story-book-cartoon-princesses-princes-129245747.jpg" />
+<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/illustration-story-book-cartoon-princesses-princes-front-castle-story-book-cartoon-princesses-princes-129245747.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Story Books</Card.Title>
     <Card.Text>
      Find a story Book and read along with them.
     </Card.Text>
-      <Button onClick={()=>history.push('./Views/StoryBookView/StoryBooks')} className="btn btn-success mx-1"><GiBookshelf/>Pick your Story</Button>
+      <Button onClick={()=>history.push('./Views/StoryBookView/StoryBooks')} className="btn btn-success m-auto d-flex"><GiBookshelf className="m-1 d-flex align-bottom"/>Pick your Story</Button>
   </Card.Body>
 </Card>
 
-<Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://www.pitara.com/wordpress/wp-content/uploads/2002/09/animals-zoo.jpg" />
+<Card className="m-3 mt-3 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://www.pitara.com/wordpress/wp-content/uploads/2002/09/animals-zoo.jpg" style={{ height: '14rem' }}  />
   <Card.Body>
     <Card.Title>Learn Your Animals</Card.Title>
     <Card.Text>
@@ -66,19 +66,19 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/128/131/original/free-mom-and-child-cooking-illustration-vector.jpg" />
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/128/131/original/free-mom-and-child-cooking-illustration-vector.jpg" style={{ height: '14rem' }}  />
   <Card.Body>
     <Card.Title>Fun Recipes</Card.Title>
     <Card.Text>
       Fun videos of recipes and a list of ingredients.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/RecipeVideos')} className="btn btn-info mx-1"><GiCupcake/> Lets Cook</Button>
+    <Button onClick={()=>history.push('./Views/RecipeVideos')} className="btn btn-info m-auto d-flex"><GiCupcake className="m-1 d-flex align-bottom"/> Lets Cook</Button>
   </Card.Body>
 </Card>
 
-<Card className="mt-4 ml-4 mr-4 mt-4 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/136/812/original/starship-space-cartoon-free-vector.jpg" />
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/136/812/original/starship-space-cartoon-free-vector.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your Stars</Card.Title>
     <Card.Text>
