@@ -62,7 +62,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Have fun with these pictures an desriptions of Animals.
     </Card.Text>
-    <Button onClick={()=>history.push('/Animals')} className="btn btn-warning m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
+    <Button onClick={()=>history.push('/Animals')} className="btn btn-primary m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
   </Card.Body>
 </Card>
 
@@ -84,7 +84,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Gaze at the stars with you little ones and learn there stories.
     </Card.Text>
-    <Button className="btn btn-primary m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
+    <Button className="btn btn-danger m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
   </Card.Body>
 </Card>
 </Container>
