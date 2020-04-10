@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
@@ -42,4 +42,4 @@ render(){
   )
 }
 }
-export default Space;
+export default Space; 

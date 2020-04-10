@@ -25,10 +25,8 @@ class Words extends React.Component {
   }
 
   wordArray = [
-    "am",
     "at",
     "all",
-    "and",
     "away",
     "big",
     "blue",
@@ -37,7 +35,6 @@ class Words extends React.Component {
     "brown",
     "but",
     "can",
-    "come",
     "down",
     "find",
     "funny",
