@@ -103,7 +103,7 @@ const FlashCard = () => {
 
 
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
+      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-d-dog.jpg" />
       <Card.Body className="d-flex justify-content-center">
         <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowD(true)}>Click to enlarge</Button>
       </Card.Body>
@@ -116,36 +116,15 @@ const FlashCard = () => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="D">
-          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
+          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-d-dog.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>D</Modal.Body>
+        <Modal.Body>D is for DOG </Modal.Body>
       </Modal>
 
 
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
-      <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowD(true)}>Click to enlarge</Button>
-      </Card.Body>
-    </Card>
-    <Modal
-        size="sm"
-        show={smShowD}
-        onHide={() => setSmShowD(false)}
-        aria-labelledby="example-modal-sizes-title-sm"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="D">
-          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>C is for Cat</Modal.Body>
-      </Modal>
-
-
-    <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
+      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-e-egg.jpg" />
       <Card.Body className="d-flex justify-content-center">
         <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowE(true)}>Click to enlarge</Button>
       </Card.Body>
@@ -158,7 +137,7 @@ const FlashCard = () => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="E">
-          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
+          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-e-egg.jpg" />
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>C is for Cat</Modal.Body>
@@ -166,7 +145,7 @@ const FlashCard = () => {
 
 
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
+      <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-f-flower.jpg" />
       <Card.Body className="d-flex justify-content-center">
         <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowF(true)}>Click to enlarge</Button>
       </Card.Body>
@@ -179,7 +158,7 @@ const FlashCard = () => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="F">
-          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
+          <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-f-flower.jpg" />
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>C is for Cat</Modal.Body>
