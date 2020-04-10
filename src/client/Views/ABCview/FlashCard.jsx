@@ -63,7 +63,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-b-ball.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto"onClick={() => setSmShowB(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowB(true)}>Click to enlarge</Button>
       </Card.Body>
     </Card>
     <Modal

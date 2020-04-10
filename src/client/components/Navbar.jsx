@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import  Navbar  from "react-bootstrap/Navbar";
 import  Nav  from "react-bootstrap/Nav";
 import  Button  from "react-bootstrap/Button";
-import  {FaUserAlt}  from "react-icons/fa";
+//import  {FaUserAlt}  from "react-icons/fa";
 import  {FaHome}  from "react-icons/fa";
 import  {GiCupcake}  from "react-icons/gi";
 // import { Form } from "react-bootstrap";
