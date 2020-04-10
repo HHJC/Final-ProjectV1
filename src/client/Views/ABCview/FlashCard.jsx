@@ -42,7 +42,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-a-apple.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowA(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowA(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -63,7 +63,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-b-ball.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto"onClick={() => setSmShowB(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto"onClick={() => setSmShowB(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -84,7 +84,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowC(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowC(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -105,7 +105,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-d-dog.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowD(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowD(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -126,7 +126,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-e-egg.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowE(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowE(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -147,7 +147,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-f-flower.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowF(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowF(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -168,7 +168,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-g-guitar.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowG(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowG(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -189,7 +189,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-h-house.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowH(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowH(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -210,7 +210,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-i-icecream.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowI(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowI(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -231,7 +231,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-j-jar.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowJ(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowJ(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -252,7 +252,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-k-kite1.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowK(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowK(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -273,7 +273,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-l-lion.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowL(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowL(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -294,7 +294,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-m-moon.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowM(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowM(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -315,7 +315,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-n-notebook1.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowN(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowN(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -336,7 +336,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-o-orange.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowO(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowO(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -357,7 +357,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-p-pig.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowP(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowP(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -378,7 +378,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-q-queen1.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowQ(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowQ(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -399,7 +399,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-r-rabbit.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowR(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowR(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -420,7 +420,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-s-sun.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowS(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowS(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -441,7 +441,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-t-tree.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowT(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowT(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -462,7 +462,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-u-umbrella.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowU(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowU(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -483,7 +483,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src=" http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-v-volcano.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowV(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowV(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -504,7 +504,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-w-watermelon.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowW(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowW(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -526,7 +526,7 @@ const FlashCard = () => {
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-x-xray1.jpg
 " />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowX(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowX(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -548,7 +548,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-y-yoyo1.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowY(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setSmShowY(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
@@ -569,7 +569,7 @@ const FlashCard = () => {
     <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-z-zebra.jpg" />
       <Card.Body className="d-flex justify-content-center">
-        <Button className="btn btn-danger m-auto d-flex" onClick={() => setSmShowZ(true)}>Click to enlarge</Button>
+        <Button className="btn btn-danger m-auto d-flex" onClick={() => setSmShowZ(true)}>Click to open</Button>
       </Card.Body>
     </Card>
     <Modal
