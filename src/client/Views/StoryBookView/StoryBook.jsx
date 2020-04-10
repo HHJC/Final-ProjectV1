@@ -9,11 +9,10 @@ const StoryOne = () => {
             <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
-    <Card.Title>Learn Your ABC's</Card.Title>
     <Card.Text>
-      Digital Flash Cards to help you teach your child there ABC's.
+    "Ten steps from the porch and twenty steps from the rose bushes," growled Bluebeard in Jimmy's dream one night. "There be treasure there! Aawrgh."
     </Card.Text>
-    <Button /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-warning mx-1">Flah Cards</Button>
+    <Button /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-warning mx-1">Next Page</Button>
   </Card.Body>
 </Card>
         </Container>
