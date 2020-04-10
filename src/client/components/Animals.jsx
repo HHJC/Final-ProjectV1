@@ -52,6 +52,16 @@ class Animals extends React.Component {
     "fish",
     "duck",
   ];
+  
+   
+  
+  
+     
+  
+  // if(animals.length == images)
+
+
+
 
   fetchWords(url) {
     fetch(`https://owlbot.info/api/v4/dictionary/${url}`, {
@@ -88,11 +98,10 @@ class Animals extends React.Component {
       >
         {this.state.allAnimals.map((animal) => (
           <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={require(`../img/animals/${animal.word}.jpg`)} />
             <Card.Body>
               <Card.Title>{animal.word}</Card.Title>
               <Card.Text>{animal.definitions[0].definition}</Card.Text>
-              
             </Card.Body>
           </Card>
         ))}
@@ -102,6 +111,13 @@ class Animals extends React.Component {
 }
 export default Animals; 
 
+
+//get the list of all files with .jpg extension in the directory and safe it in an array named $images
+
+//extract only the name of the file without the extension and save in an array named $find
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // {definitions:
 // [ { type: 'noun',
 //     definition:
