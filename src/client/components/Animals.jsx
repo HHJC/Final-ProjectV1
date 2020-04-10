@@ -31,7 +31,6 @@ class Animals extends React.Component {
     "tiger",
     "lion",
     "cow",
-    "horse",
     "chicken",
     "zebra",
     "monkey",

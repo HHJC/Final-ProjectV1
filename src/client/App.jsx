@@ -7,9 +7,10 @@ import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
 import Space from './Views/Space/Space';
-import AnimalCard from './Views/Animalsview/AnimalCard';
-import WordCard from './Views/Words/WordCard';
-import FlashCard from './Views/ABCview/FlashCard'
+import Words from "./components/Words";
+import Animals from "./components/Animals";
+import FlashCard from './Views/ABCview/FlashCard';
+//import WordCard from './Views/Words/WordCard';
 
 
 
