@@ -29,7 +29,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Digital Flash Cards to help you teach your child there ABC's.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/ABCview/FlashCard')}  className="btn btn-danger mx-1 mt-auto"><GiCardRandom /> Flash Cards</Button>
+    <Button onClick={()=>history.push('./Views/ABCview/FlashCard')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
   </Card.Body>
 </Card>
 
@@ -40,7 +40,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
      A way to teach your kids words with flash cards
     </Card.Text>
-    <Button onClick={()=>history.push('/Words')} className="btn btn-warning mx-1 mt-auto"><FaBookReader/> Say It With Me</Button>
+    <Button onClick={()=>history.push('/Words')} className="btn btn-warning m-auto d-flex"><FaBookReader className="m-1 d-flex align-bottom"/> Say It With Me</Button>
   </Card.Body>
 </Card>
 
@@ -62,7 +62,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Have fun with these pictures an desriptions of Animals.
     </Card.Text>
-    <Button onClick={()=>history.push('/Animals')} className="btn btn-warning mx-1"><FaDog/>What Creature Is That</Button>
+    <Button onClick={()=>history.push('/Animals')} className="btn btn-warning m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
   </Card.Body>
 </Card>
 
@@ -84,7 +84,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Gaze at the stars with you little ones and learn there stories.
     </Card.Text>
-    <Button className="btn btn-danger mx-1"><GiStarSwirl /> Lets Star Gaze</Button>
+    <Button className="btn btn-primary m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
   </Card.Body>
 </Card>
 </Container>
