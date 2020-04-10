@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+// import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 
 class Space extends React.Component {
   constructor(props){

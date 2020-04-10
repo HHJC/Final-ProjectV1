@@ -38,12 +38,12 @@ class App extends React.Component {
           <Route exact path="/Recipes">
             <Recipes />
           </Route>
-          <Route exact path="/Animals">
+           {/* <Route exact path="/Animals">
             <Animals />
-          </Route>
+          </Route> 
           <Route exact path="/Words">
             <Words />
-          </Route>
+          </Route> */}
           <Route exact path="/Views/Space/Space">
             <Space />
           </Route>
