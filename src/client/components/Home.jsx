@@ -28,7 +28,7 @@ import { FaBookReader } from 'react-icons/fa';
   <Card.Body>
     <Card.Title>Learn Your ABC's</Card.Title>
     <Card.Text>
-      Digital Flash Cards to help you teach your child there ABC's.
+      Digital Flash Cards to help you teach your child their ABC's.
     </Card.Text>
     <Button /* onClick={()=>history.push('./Views/StoryBooks')} */ className="btn btn-danger mx-1"><GiCardRandom /> Flash Cards</Button>
   </Card.Body>
@@ -61,7 +61,7 @@ import { FaBookReader } from 'react-icons/fa';
   <Card.Body>
     <Card.Title>Learn Your Animals</Card.Title>
     <Card.Text>
-      Have fun with these pictures an desriptions of Animals.
+      Have fun with these pictures and descriptions of Animals.
     </Card.Text>
     <Button onClick={()=>history.push('./Views/Animalsview/Animals')} className="btn btn-warning mx-1"><FaDog/>What Creature Is That</Button>
   </Card.Body>
@@ -83,7 +83,7 @@ import { FaBookReader } from 'react-icons/fa';
   <Card.Body>
     <Card.Title>Learn Your Stars</Card.Title>
     <Card.Text>
-      Gaze at the stars with you little ones and learn there stories.
+      Gaze at the stars with your little ones and learn their stories.
     </Card.Text>
     <Button className="btn btn-secondary mx-1"><GiStarSwirl /> Lets Star Gaze</Button>
   </Card.Body>

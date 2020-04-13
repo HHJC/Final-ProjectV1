@@ -8,6 +8,7 @@ import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
 import AnimalCard from "./Views/Animalsview/AnimalCard";
 import WordCard from "./Views/Words/WordCard";
+import RecPractice from "./components/RecPractice";
 
 
 
@@ -39,6 +40,8 @@ class App extends React.Component {
           <Route exact path="/Views/Words/WordCard">
             <WordCard />
           </Route>
+          <Route exact path="/RecPractice" component={RecPractice}/> 
+          
         </Switch>
       </BrowserRouter>
     );
