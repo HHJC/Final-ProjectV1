@@ -93,7 +93,7 @@ class Animals extends React.Component {
   render() {
     return (
       <Container
-        className="main row d-flex justify-content-center m-auto p-10 shadow border"
+        className="main row d-flex justify-content-center m-auto p-auto shadow border"
         style={{ width: "100rem" }}
       >
         {this.state.allAnimals.map((animal) => (
