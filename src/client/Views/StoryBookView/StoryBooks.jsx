@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 const StoryBooks = () => {
   return (
     <Container
-      className="main row justify-content-center m-auto p-10"
+      className="main row d-flex justify-content-center m-auto p-auto shadow border"
       style={{ width: "100rem" }}
     >
       <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
@@ -105,11 +105,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/UczxQzeOlMc"
           frameborder="0"
@@ -129,11 +129,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/-XFQNGJmLEk"
           frameborder="0"
@@ -153,11 +153,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/7j0OY3236jw"
           frameborder="0"
@@ -177,11 +177,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/lgZRMptA0Lk"
           frameborder="0"
@@ -201,11 +201,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/JvKaVLLXa30"
           frameborder="0"
@@ -225,11 +225,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/qITsQKHAZy8"
           frameborder="0"
@@ -249,11 +249,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/1_Zk4P50WT4"
           frameborder="0"
@@ -273,11 +273,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/Hh-ju18EoG0"
           frameborder="0"
@@ -297,11 +297,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/ANZ0P4Edfd8"
           frameborder="0"
@@ -321,11 +321,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/1OPrLwTOq7I"
           frameborder="0"
@@ -345,11 +345,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/M-aceEquCtY"
           frameborder="0"
@@ -369,11 +369,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/PGVXwMX0e5w"
           frameborder="0"
@@ -393,11 +393,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/T18NCobS43c"
           frameborder="0"
@@ -417,11 +417,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/iC8YpmnzbU8"
           frameborder="0"
@@ -441,11 +441,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/QwCxW7Nx4Ec"
           frameborder="0"
@@ -465,11 +465,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/iZT4vdpgxFM"
           frameborder="0"
@@ -489,11 +489,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/dPUW1t9Gu4s"
           frameborder="0"
@@ -513,11 +513,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/9kTVtML08CE"
           frameborder="0"
@@ -537,11 +537,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/0Brmv6DHSdc"
           frameborder="0"
@@ -561,11 +561,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/cutROw_NJvE"
           frameborder="0"
@@ -585,11 +585,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/eDzISc6o_Xs"
           frameborder="0"
@@ -609,11 +609,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/8bpXikqUvXw"
           frameborder="0"
@@ -633,11 +633,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/op9Bc7GWCuw"
           frameborder="0"
@@ -657,11 +657,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/B6SrbWwVKAs"
           frameborder="0"
@@ -681,11 +681,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/19bMQeCvgrk"
           frameborder="0"
@@ -705,11 +705,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/TzUS7UHXsd8"
           frameborder="0"
@@ -729,11 +729,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/BNGUnk8JeLE"
           frameborder="0"
@@ -753,11 +753,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/6E67n1vZZjQ"
           frameborder="0"
@@ -777,11 +777,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/O_E5nuzXLS8"
           frameborder="0"
@@ -801,11 +801,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/xoiS5ZFtqVg"
           frameborder="0"
@@ -825,11 +825,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/a9K-sAKdk2Y"
           frameborder="0"
@@ -849,11 +849,11 @@ const StoryBooks = () => {
         </Card.Body>
       </Card>
 
-      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "38rem" }}>
+      <Card className="mt-4 ml-4 mr-4 mt-4 " style={{ width: "28rem" }}>
         <iframe
           className="mr-4 ml-4"
           title="title"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/yU8OJWAZmZo"
           frameborder="0"
