@@ -20,14 +20,14 @@ import { FaBookReader } from 'react-icons/fa';
 
   return (
   
-    <Container className="main row d-flex justify-content-center m-auto p-10" style={{width:'100rem'}}>
+    <Container className="main row d-flex justify-content-center m-auto p-auto" style={{width:'100rem'}}>
    
 <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2017/03/02/16/32/font-2111748__480.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your ABC's</Card.Title>
     <Card.Text>
-      Digital Flash Cards to help you teach your child there ABC's.
+      Digital Flash Cards to help you teach your child their ABC's.
     </Card.Text>
     <Button onClick={()=>history.push('./Views/ABCview/FlashCard')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
   </Card.Body>
@@ -62,7 +62,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Have fun with these pictures an desriptions of Animals.
     </Card.Text>
-    <Button onClick={()=>history.push('/Animals')} className="btn btn-warning m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
+    <Button onClick={()=>history.push('/Animals')} className="btn btn-primary m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
   </Card.Body>
 </Card>
 
@@ -84,7 +84,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Gaze at the stars with you little ones and learn there stories.
     </Card.Text>
-    <Button className="btn btn-primary m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
+    <Button className="btn btn-danger m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
   </Card.Body>
 </Card>
 </Container>
