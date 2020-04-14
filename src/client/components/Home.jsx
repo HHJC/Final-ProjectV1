@@ -44,6 +44,28 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
+<Card className="m-3 mt-3 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://www.pitara.com/wordpress/wp-content/uploads/2002/09/animals-zoo.jpg" style={{ height: '14rem' }}  />
+  <Card.Body>
+    <Card.Title>Learn Your Animals</Card.Title>
+    <Card.Text>
+      Have fun with these pictures an desriptions of Animals.
+    </Card.Text>
+    <Button onClick={()=>history.push('/Animals')} className="btn btn-primary m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
+  </Card.Body>
+</Card>
+
+<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOe7UOXSBi0n5dwRLbBH914OIoL7Q8czxV2AmowOUEZM2lkG15&usqp=CAU" style={{ height: '14rem' }} />
+  <Card.Body>
+    <Card.Title>Learn Your 123's</Card.Title>
+    <Card.Text>
+      Digital Flash Cards to help you teach your child their 123's.
+    </Card.Text>
+    <Button onClick={()=>history.push('./Views/123view/NumberCard')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
+  </Card.Body>
+</Card>
+
 <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/illustration-story-book-cartoon-princesses-princes-front-castle-story-book-cartoon-princesses-princes-129245747.jpg" style={{ height: '14rem' }} />
   <Card.Body>
@@ -55,16 +77,6 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="m-3 mt-3 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://www.pitara.com/wordpress/wp-content/uploads/2002/09/animals-zoo.jpg" style={{ height: '14rem' }}  />
-  <Card.Body>
-    <Card.Title>Learn Your Animals</Card.Title>
-    <Card.Text>
-      Have fun with these pictures an desriptions of Animals.
-    </Card.Text>
-    <Button onClick={()=>history.push('/Animals')} className="btn btn-primary m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
-  </Card.Body>
-</Card>
 
 <Card className="m-3 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/128/131/original/free-mom-and-child-cooking-illustration-vector.jpg" style={{ height: '14rem' }}  />

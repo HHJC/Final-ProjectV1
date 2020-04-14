@@ -10,8 +10,8 @@ import Space from './Views/Space/Space';
 import Words from "./components/Words";
 import Animals from "./components/Animals";
 import FlashCard from './Views/ABCview/FlashCard';
-import StoryOne from "./Views/StoryBookView/StoryBook";
-//import WordCard from './Views/Words/WordCard';
+import NumberCards from "./Views/123view/NumberCard";
+
 
 
 
@@ -30,6 +30,10 @@ class App extends React.Component {
           </Route>
           <Route exact path="/Views/ABCview/FlashCard">
           <FlashCard />
+          </Route>
+          
+          <Route exact path="/Views/123view/NumberCard">
+          <NumberCards />
           </Route>
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
