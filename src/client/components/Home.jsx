@@ -67,7 +67,7 @@ import { FaBookReader } from 'react-icons/fa';
 </Card>
 
 <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://cdn6.aptoide.com/imgs/b/9/9/b9999de5dfddb50276a4b16cb83723c4_icon.png" style={{ height: '14rem' }} />
+  <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4pKoHdWl7gkKzGux9yoLpOfgHuvlQtwlDh4VcnUe8S9UHYaS1&usqp=CAU" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Math Fun</Card.Title>
     <Card.Text>
