@@ -134,24 +134,3 @@ class Words extends React.Component {
     }
   };
 
-  render() {
-    return (
-      <Container
-        className="main row d-flex justify-content-center m-auto p-auto shadow border"
-        style={{ width: "100rem" }}
-      >
-        {this.state.allWords.map((words) => (
-          <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src= {require(`../img/words/${words.word}.jpg`)} />
-            <Card.Body>
-              <Card.Title>{words.word}</Card.Title>
-              <Card.Text>{words.definitions[0].definition}</Card.Text>
-              <Card.Footer>{words.definitions[0].type}</Card.Footer>
-            </Card.Body>
-          </Card>
-        ))}
-      </Container>
-    );
-  }
-}
-export default Words;
