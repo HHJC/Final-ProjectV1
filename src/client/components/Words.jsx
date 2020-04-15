@@ -42,6 +42,7 @@ class Words extends React.Component {
     "help",
     "here",
     // "I",
+    
     // "it",
     "jump",
     "little",
@@ -146,6 +147,7 @@ class Words extends React.Component {
               <Card.Title>{words.word}</Card.Title>
               <Card.Text>{words.definitions[0].definition}</Card.Text>
               <Card.Footer>{words.definitions[0].type}</Card.Footer>
+              
             </Card.Body>
           </Card>
         ))}
