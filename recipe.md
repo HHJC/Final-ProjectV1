@@ -44,6 +44,14 @@ Preparation
 Preheat the oven to 350˚F (180˚C). Line a 10-inch (25-cm) cast iron pan with parchment paper.
 In a large bowl, mix the butter with 1 teaspoon of vanilla extract until light and fluffy.
 Add the granulated sugar, then the brown sugar, and mix until well incorporated.
+Add the egg and stir until thoroughly incorporated.
+Using a fine mesh sieve, sift the flour, cream of tartar, baking soda, and salt into the dough. Combine with a spatula until evenly mixed.
+Spread the cookie dough in an even layer in the prepared pan. Chill in the fridge for 30 minutes, then bake for 15-18 minutes until lightly golden. Let cool.
+In a medium bowl, combine the cream cheese, powdered sugar, and remaining ½ teaspoon of vanilla extract until well incorporated.
+Spread half of the frosting onto a quarter of the cooled cookie and the other half on the diagonally opposite corner.
+Frost the other quarters with the chocolate hazelnut spread.
+Decorate with your favorite toppings.
+Enjoy!
 *recipe 2*
 "Cheesy Taco Breadsticks"
 1 small onion, diced
@@ -80,6 +88,14 @@ sprinkle, to taste
 In a medium bowl, mix softened butter and sugar until smooth. Add the egg and stir well to combine. Sift in the flour and fold until fully incorporated.
 Cover the dough with plastic and rest in a fridge for at least 30 minutes.
 Preheat the oven to 350˚F (180˚C).
+Sprinkle flour on the work surface and rolling pin so the dough won’t stick. Roll out the dough to ¼- to ⅛-inch (6- to 3-mm) thickness. Using a 3-inch (7-cm) round cookie cutter, cut out the dough.
+Cut out center of each cookie with using a 2-inch (5-cm) round cookie cutter.
+Place the cookie on a parchment-lined baking sheet and bake for 10 minutes.
+Take out the sheet from the oven and place hard candies in the center of each cookies. Bake for 3-5 minutes or until the hard candy melts and spreads out.
+Let the cookies cool completely.
+In a microwave-safe bowl, melt the white chocolate, about 10-15 seconds.
+For the bottom cookies, add your favorite sprinkles onto the hard candy. Take the top cookies and drizzle melted chocolate around the rims. Immediately sandwich the 2 cookies and set in fridge for 15 minutes.
+Enjoy!
 
 *recipe 4*
 "animal pancakes"
@@ -110,27 +126,20 @@ Return blended veggies to the pot over medium heat, and add the milk, cheese, an
 Add macaroni, reduce heat, mix thoroughly, and cover for 20 minutes.
 Enjoy!
 *recipe 6*
-"chocolate fondue bread boat"
-1 large loaf bread
-4 tablespoons butter
-3 tablespoons sugar
-½ teaspoon cinnamon
-10 oz dark chocolate
-10 oz milk chocolate
-10 oz white chocolate
-3 ¼ cups heavy cream, divided
-Preheat oven to 350˚F (180˚C).
-On a large cutting board cut out 3 evenly spaced squares roughly half the width and ⅙ the length of the bread loaf.
-Take the 3 bread cut outs and slice them into 6 strips each.
-SCROLL FOR MORE CONTENT
-On a parchment paper-lined baking sheet place bread and cut out bread strips.
-Combine butter and sugar and brush onto loaf.
-Add cinnamon to the sugar butter mixture and brush onto strips.
-Bake for 25 minutes removing the cinnamon toast strips after 10 minutes.
-In a small saucepan combine dark chocolate and 1 ¼ cup (295 ml) heavy cream and stir until fully incorporated.
-In a small saucepan combine milk chocolate and 1 cup heavy (235 ml) cream and stir until fully incorporated.
-In a small saucepan combine white chocolate and remaining heavy cream and stir until fully incorporated.
-Place loaf on serving tray and fill each hole with one of the three fondues.
+"Hidden Vegetable Macaroni and Cheese"
+1 lb elbow macaroni, cooked al dente
+½ cup water
+1 cup cauliflower florets
+1 cup butternut squash, diced
+1 cup carrot, sliced
+2 cups milk
+2 cups cheddar cheese, shredded
+4 oz cream cheese
+Add water, cauliflower, squash, and carrots in a pot over medium heat. Cover and cook until vegetables are tender.
+Add everything into a blender, including cooking water, and blend until smooth.
+Return blended veggies to the pot over medium heat, and add the milk, cheese, and cream cheese. Stir until smooth.
+Add macaroni, reduce heat, mix thoroughly, and cover for 20 minutes.
+Enjoy!
 Enjoy!
 *recipe 7*
 "Super Soft Banana Bread Cookies"

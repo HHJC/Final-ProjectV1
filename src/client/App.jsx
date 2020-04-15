@@ -9,16 +9,11 @@ import RecipeVideos from "./Views/RecipeVideos";
 // import AnimalCard from "./Views/Animalsview/AnimalCard";
 // import WordCard from "./Views/Words/WordCard";
 import RecPractice from "./components/RecPractice";
-import Space from './Views/Space/Space';
-import Words from "./components/Words";
-import Animals from "./components/Animals";
-import FlashCard from './Views/ABCview/FlashCard';
-import NumberCards from "./Views/123view/NumberCard";
-import MathProblems from "./Views/Mathview/Math";
-
-
-
-
+import FlashCard from "./Views/ABCview/FlashCard";
+// import Animals from "./Animals";
+// import Words from "./Words";
+// import Space from "./Views/Space/Space";
+// import StoryOne from "/Views/StoryBookView/StoryBook";
 
 
 
@@ -61,6 +56,9 @@ class App extends React.Component {
           <Route exact path="/Views/Space/Space">
             <Space />
           </Route>
+          <Route exact path="/Views/StoryBookView/StoryBook">
+            <StoryOne />
+          </Route> */}
           <Route exact path="/RecPractice" component={RecPractice}/> 
           
         </Switch>

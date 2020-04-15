@@ -137,14 +137,22 @@ class Words extends React.Component {
   render() {
     return (
       <Container
+<<<<<<< HEAD:src/client/components/Words.jsx
         className="main row d-flex justify-content-center m-auto p-auto shadow border"
+=======
+        className="main m-5 row justify-content-center"
+>>>>>>> yes chef:src/client/components/WordsCard.jsx
         style={{ width: "100rem" }}
       >
         {this.state.allWords.map((words) => (
           <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
+<<<<<<< HEAD:src/client/components/Words.jsx
             <Card.Img
               variant="top" /* src= {require(`../img/words/${words.word}.jpg`)} */
             />
+=======
+            <Card.Img variant="top" src="holder.js/100px180" />
+>>>>>>> yes chef:src/client/components/WordsCard.jsx
             <Card.Body>
               <Card.Title>{words.word}</Card.Title>
               <Card.Text>{words.definitions[0].definition}</Card.Text>

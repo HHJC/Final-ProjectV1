@@ -1,18 +1,21 @@
 import React from 'react';
 //import Button from 'react-bootstrap/Button';
 //import    from 'react-bootstrap/';
-import { Accordion, Card, Button, Container,} from 'react-bootstrap';
+import { Accordion, Card, Button, Container, Row, Col} from 'react-bootstrap';
 
 const RecipeVideos = () => {
 
     return (
 
 
-        <Container className="main row d-flex justify-content-center m-auto p-10" style={{width:'100rem'}}>
-
+        <Container className= "d-flex flex-column" style={{width:'100rem', justifyContent: "space-around"}}>  
             {/* <div style={{ width: 'auto', height: 'auto' }}> */}
-            <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/DqhqIfHww7g" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
-            <Accordion>
+            {/* <div style={{ width: 'auto', height: 'auto' }}> */}
+            {/* <div style={{ width: 'auto', height: 'auto' }}> */}
+     {/* <div className="mx-auto">   */}    
+        <Row>
+             <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/DqhqIfHww7g" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+              <Accordion>
                 <Card style={{ width: '18rem' }}>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -39,7 +42,11 @@ const RecipeVideos = () => {
 
                                     </Card.Body>
                     </Accordion.Collapse>
-                </Card></Accordion>  {/* <Button className="btn btn-warning mx-1">Recipe</Button>
+                </Card></Accordion> </Row>{/*} </div>*/}
+                  
+                <Row>
+                    <div className="mx-auto">
+                    {/* <Button className="btn btn-warning mx-1">Recipe</Button>
             </div>
             <div style={{ width: 'auto', height: 'auto' }}> */}
             <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/FcKvYl-GaAA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
@@ -54,10 +61,17 @@ const RecipeVideos = () => {
 
                     </Card.Body>
                 </Accordion.Collapse>
-            </Card>{/* <Button className="btn btn-warning mx-1">Recipe</Button>
+            </Card>
+            </div> </Row> {/* <Button className="btn btn-warning mx-1">Recipe</Button>
             </div>
             <div style={{ width: 'auto', height: 'auto' }}> */}
-            <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/vrpof_QQUe0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+            <Row>
+            <div className="mx-auto">
+                
+                
+
+
+<iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/vrpof_QQUe0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <Card style={{ width: '18rem' }}>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -69,7 +83,13 @@ const RecipeVideos = () => {
 
                     </Card.Body>
                 </Accordion.Collapse>
-            </Card>{/* <Button className="btn btn-warning mx-1">Recipe</Button>
+            </Card>
+
+               
+
+</div>
+            </Row>
+            {/* <Button className="btn btn-warning mx-1">Recipe</Button>
             </div>
             <div style={{ width: 'auto', height: 'auto' }}> */}
             <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/fuEkA9rG_nI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
@@ -84,8 +104,8 @@ const RecipeVideos = () => {
 
                     </Card.Body>
                 </Accordion.Collapse>
-            </Card>{/* <Button className="btn btn-warning mx-1">Recipe</Button>
-            </div> 
+            </Card>
+        
             <div style={{ width: 'auto', height: 'auto' }}> */}
             <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/zrXWIWlF5_M" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             <Card style={{ width: '18rem' }}>
@@ -99,7 +119,8 @@ const RecipeVideos = () => {
 
                     </Card.Body>
                 </Accordion.Collapse>
-            </Card>{/* <Button className="btn btn-warning mx-1">Recipe</Button>
+            </Card> </div>
+            {/* <Button className="btn btn-warning mx-1">Recipe</Button>
             </div>
              <div style={{ width: 'auto', height: 'auto' }}> */}
             <iframe className="mr-4 ml-4" title="Cooking" width="400" height="315" src="https://www.youtube.com/embed/CpDqOH3uyAI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
@@ -116,8 +137,6 @@ const RecipeVideos = () => {
                 </Accordion.Collapse>
             </Card>{/* <Button className="btn btn-warning mx-1">Recipe</Button>
             </div> */}
-        </Container>
-    )
-}
-
+            </Container>
+    )}
 export default RecipeVideos;
