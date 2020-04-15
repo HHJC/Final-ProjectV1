@@ -56,7 +56,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-a-apple.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">A is for APPLE</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>A is for APPLE</h3></Modal.Body>
       </Modal>
 
 
@@ -77,7 +77,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-b-ball.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">B is for BALL</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>B is for BALL</h3></Modal.Body>
       </Modal>
 
 
@@ -98,7 +98,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-c-car.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">C is for CAR</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>C is for CAR</h3></Modal.Body>
       </Modal>
 
 
@@ -119,7 +119,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-d-dog.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">D is for DOG </Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>D is for DOG</h3></Modal.Body>
       </Modal>
 
 
@@ -140,7 +140,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-e-egg.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">E is for EGG</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>E is for EGG</h3></Modal.Body>
       </Modal>
 
 
@@ -161,7 +161,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-f-flower.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">F is for FLOWER</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>F is for FLOWER</h3></Modal.Body>
       </Modal>
 
 
@@ -182,7 +182,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-g-guitar.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">G is for GUITAR</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>G is for GUITAR</h3></Modal.Body>
       </Modal>
 
 
@@ -203,7 +203,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-h-house.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">H is for HOUSE</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>H is for HOUSE</h3></Modal.Body>
       </Modal>
 
 
@@ -224,7 +224,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-i-icecream.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">I is for ICECREAM</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>I is for ICECREAM</h3></Modal.Body>
       </Modal>
 
 
@@ -245,7 +245,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-j-jar.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">J is for JAR</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>J is for JAR</h3></Modal.Body>
       </Modal>
 
 
@@ -266,7 +266,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-k-kite1.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">K is for KITE</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>K is for KITE</h3></Modal.Body>
       </Modal>
 
 
@@ -287,7 +287,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-l-lion.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">L is for LION</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>L is for LION</h3></Modal.Body>
       </Modal>
 
 
@@ -308,7 +308,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-m-moon.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">M is for MOON</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>M is for MOON</h3></Modal.Body>
       </Modal>
 
 
@@ -329,7 +329,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-n-notebook1.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">N is for NOTEBOOK</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>N is for NOTEBOOK</h3></Modal.Body>
       </Modal>
 
 
@@ -350,7 +350,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-o-orange.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">O is for ORANGE</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>O is for ORANGE</h3></Modal.Body>
       </Modal>
 
 
@@ -371,7 +371,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-p-pig.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">P is for PIG</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>P is for PIG</h3></Modal.Body>
       </Modal>
 
 
@@ -392,7 +392,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-q-queen1.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">Q is for QUEEN</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>Q is for QUEEN</h3></Modal.Body>
       </Modal>
 
 
@@ -413,7 +413,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-r-rabbit.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">R is for RABBIT</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>R is for RABBIT</h3></Modal.Body>
       </Modal>
 
 
@@ -434,7 +434,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-s-sun.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">S is for SUN</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>S is for SUN</h3></Modal.Body>
       </Modal>
 
 
@@ -455,7 +455,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-t-tree.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">T is for TREE</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>T is for TREE</h3></Modal.Body>
       </Modal>
 
 
@@ -476,7 +476,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-u-umbrella.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">U is for UMBRELLA</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>U is for UMBRELLA</h3></Modal.Body>
       </Modal>
 
 
@@ -497,7 +497,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src=" http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-v-volcano.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">V is for VOLCANO</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>V is for VOLCANO</h3></Modal.Body>
       </Modal>
 
 
@@ -518,7 +518,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-w-watermelon.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">W is for WATERMELON</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>W is for WATERMELON</h3></Modal.Body>
       </Modal>
 
 
@@ -541,7 +541,7 @@ const FlashCard = () => {
 " />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">X is for X-RAY</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>X is for X-RAY</h3></Modal.Body>
       </Modal>
 
 
@@ -562,7 +562,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-y-yoyo1.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">Y is for YO-YO</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>Y is for YO-YO</h3></Modal.Body>
       </Modal>
 
 
@@ -583,7 +583,7 @@ const FlashCard = () => {
           <Card.Img variant="top" src="http://thelearningsite.info/wp-content/uploads/2013/11/flashcard-alphabet-letter-z-zebra.jpg" />
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="d-flex justify-content-center">Z is for ZEBRA</Modal.Body>
+        <Modal.Body className="d-flex justify-content-center"><h3>Z is for ZEBRA</h3></Modal.Body>
       </Modal>
 
    
