@@ -10,7 +10,7 @@ import { GiCardRandom } from 'react-icons/gi';
 import { GiBookshelf } from 'react-icons/gi';
 import { FaDog } from 'react-icons/fa';
 import { FaBookReader } from 'react-icons/fa';
-
+import { GiWorld } from 'react-icons/gi';
 
 
  const Home = () =>  {
@@ -74,6 +74,17 @@ import { FaBookReader } from 'react-icons/fa';
       Basic Adding & Subtracting math solving.
     </Card.Text>
     <Button onClick={()=>history.push('./Views/Mathview/Math')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/>Solve Problems</Button>
+  </Card.Body>
+</Card>
+
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://st.depositphotos.com/3471499/4797/i/950/depositphotos_47979627-stock-photo-kids-around-the-world.jpg" style={{ height: '14rem' }} />
+  <Card.Body>
+    <Card.Title>Learn Geography</Card.Title>
+    <Card.Text>
+      Learn the continents of the world and the 50 states.
+    </Card.Text>
+    <Button onClick={()=>history.push('./Views/Geography/geography')} className="btn btn-danger m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Lets Travel</Button>
   </Card.Body>
 </Card>
 

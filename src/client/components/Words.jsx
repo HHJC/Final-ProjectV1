@@ -42,7 +42,6 @@ class Words extends React.Component {
     "help",
     "here",
     // "I",
-    "in",
     // "it",
     "jump",
     "little",
