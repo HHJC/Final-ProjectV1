@@ -23,7 +23,7 @@ import { FaBookReader } from 'react-icons/fa';
     <Container className="main row d-flex justify-content-center m-auto p-auto" style={{width:'100rem'}}>
    
 <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2017/03/02/16/32/font-2111748__480.jpg" style={{ height: '14rem' }} />
+  <Card.Img variant="top" src="https://previews.123rf.com/images/phanuchat/phanuchat1806/phanuchat180600032/104290986-cartoon-kids-with-abc-letters-school-kids-with-abc-children-with-abc-letters.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your ABC's</Card.Title>
     <Card.Text>
