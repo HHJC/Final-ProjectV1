@@ -23,7 +23,7 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
       text here
     </Card.Text>
-    <Button onClick={()=>history.push('/Continents')}  className="btn btn-danger m-auto d-flex">Click here</Button>
+    <Button onClick={()=>history.push('/Views/Geography/Continents')}  className="btn btn-danger m-auto d-flex">Click here</Button>
   </Card.Body>
 </Card>
 

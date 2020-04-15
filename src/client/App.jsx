@@ -38,6 +38,8 @@ class App extends React.Component {
           </Route>
           <Route exact path="/Views/Geography/geography">
           <GeographyHome />
+          <Route exact path="/Views/Geography/Continents">
+          </Route>
           </Route>
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
