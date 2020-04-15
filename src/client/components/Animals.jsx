@@ -97,8 +97,8 @@ class Animals extends React.Component {
         style={{ width: "100rem" }}
       >
         {this.state.allAnimals.map((animal) => (
-          <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={require(`../img/animals/${animal.word}.jpg`)} />
+          <Card className="m-3 mt-5 shadow border" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={require(`../img/animals/${animal.word}.jpg`)} style={{ height: '18rem', padding: '10px'}} />
             <Card.Body>
               <Card.Title>{animal.word}</Card.Title>
               <Card.Text>{animal.definitions[0].definition}</Card.Text>
