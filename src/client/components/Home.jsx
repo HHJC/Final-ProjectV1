@@ -55,7 +55,7 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://cdn6.aptoide.com/imgs/b/9/9/b9999de5dfddb50276a4b16cb83723c4_icon.png" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your 123's</Card.Title>
@@ -66,7 +66,7 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://www.weisradio.com/wp-content/uploads/2013/07/apple_and_slateboard-1200x1200.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Math Fun</Card.Title>
@@ -77,7 +77,7 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/illustration-story-book-cartoon-princesses-princes-front-castle-story-book-cartoon-princesses-princes-129245747.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Story Books</Card.Title>
@@ -89,7 +89,7 @@ import { FaBookReader } from 'react-icons/fa';
 </Card>
 
 
-<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/128/131/original/free-mom-and-child-cooking-illustration-vector.jpg" style={{ height: '14rem' }}  />
   <Card.Body>
     <Card.Title>Fun Recipes</Card.Title>
@@ -100,7 +100,7 @@ import { FaBookReader } from 'react-icons/fa';
   </Card.Body>
 </Card>
 
-<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+<Card className="m-3 shadow border" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/136/812/original/starship-space-cartoon-free-vector.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Learn Your Stars</Card.Title>
