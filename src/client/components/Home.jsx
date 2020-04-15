@@ -62,16 +62,16 @@ import { FaBookReader } from 'react-icons/fa';
     <Card.Text>
       Digital Flash Cards to help you teach your child their 123's.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/123view/NumberCard')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
+    <Button onClick={()=>history.push('./Views/123view/NumberCard')}  className="btn btn-info m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
   </Card.Body>
 </Card>
 
 <Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4pKoHdWl7gkKzGux9yoLpOfgHuvlQtwlDh4VcnUe8S9UHYaS1&usqp=CAU" style={{ height: '14rem' }} />
+  <Card.Img variant="top" src="https://www.weisradio.com/wp-content/uploads/2013/07/apple_and_slateboard-1200x1200.jpg" style={{ height: '14rem' }} />
   <Card.Body>
     <Card.Title>Math Fun</Card.Title>
     <Card.Text>
-      Basic Adding & Subtracting.
+      Basic Adding & Subtracting math solving.
     </Card.Text>
     <Button onClick={()=>history.push('./Views/Mathview/Math')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/>Solve Problems</Button>
   </Card.Body>

@@ -14,11 +14,6 @@ import NumberCards from "./Views/123view/NumberCard";
 import MathProblems from "./Views/Mathview/Math";
 
 
-
-
-
-
-
 class App extends React.Component {
   render() {
     return (
