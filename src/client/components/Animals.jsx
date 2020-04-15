@@ -1,14 +1,14 @@
-import React from "react";
+ import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import AnimalCard from "./../Views/Animalsview/AnimalCard";
+//import AnimalCard from "./../Views/Animalsview/AnimalCard";
 //import Button from "react-bootstrap/Button";
 
 class Animals extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: {
+      currentWord: {
         definitions: [
           {
             type: "",
@@ -19,10 +19,11 @@ class Animals extends React.Component {
           },
         ],
       },
+      allAnimals: [],
     };
   }
 
-  wordArray = [
+  animals = [
     "dog",
     "cat",
     "owl",
@@ -30,7 +31,6 @@ class Animals extends React.Component {
     "tiger",
     "lion",
     "cow",
-    "horse",
     "chicken",
     "zebra",
     "monkey",
@@ -52,39 +52,72 @@ class Animals extends React.Component {
     "fish",
     "duck",
   ];
+  
+   
+  
+  
+     
+  
+  // if(animals.length == images)
 
-  componentDidMount = () => {
-    fetch(`https://owlbot.info/api/v4/dictionary/dog`, {
+
+
+
+  fetchWords(url) {
+    fetch(`https://owlbot.info/api/v4/dictionary/${url}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
+        Authorization: "Token 3ec95eb2727f567db0786d8806fdd6f32a001f1a",
       },
 
       //body: JSON.stringify({type, word, definitions  })
     })
       .then((res) => res.json())
-      .then((data) => this.setState({ data: data }))
-      .then(console.log(this.state.data + "This is not being executed."));
+      .then((currentWord) => this.setState({ currentWord }))
+      .then(() =>
+        this.setState({
+          allAnimals: [...this.state.allAnimals, this.state.currentWord],
+        })
+      )
+      .catch((err) => console.log(err));
+  }
+
+  componentDidMount = () => {
+    for (let i = 0; i < this.animals.length; i++) {
+      const url = this.animals[i];
+      this.fetchWords(url);
+    }
   };
 
   render() {
     return (
-      <React.Fragment>
-        <div className="container">
-        <div>
-        <p>
-          This is the correct component.
-        </p>
-      </div>
-          <AnimalCard data={this.state.data} />
-        </div>
-      </React.Fragment>
+      <Container
+        className="main row d-flex justify-content-center m-auto p-auto shadow border"
+        style={{ width: "100rem" }}
+      >
+        {this.state.allAnimals.map((animal) => (
+          <Card className="mt-4 ml-4 mr-4 mt-4" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={require(`../img/animals/${animal.word}.jpg`)} />
+            <Card.Body>
+              <Card.Title>{animal.word}</Card.Title>
+              <Card.Text>{animal.definitions[0].definition}</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
+      </Container>
     );
   }
 }
-export default Animals;
+export default Animals; 
 
+
+//get the list of all files with .jpg extension in the directory and safe it in an array named $images
+
+//extract only the name of the file without the extension and save in an array named $find
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // {definitions:
 // [ { type: 'noun',
 //     definition:

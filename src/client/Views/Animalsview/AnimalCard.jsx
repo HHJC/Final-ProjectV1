@@ -1,7 +1,9 @@
-import React from "react";
+/* import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import { useEffect, useState } from "react";
+import SingleCard from './SingleCard';
+
 //import Button from "react-bootstrap/Button";
 
 
@@ -37,21 +39,24 @@ const AnimalCard = () => {
   "fish",
   "duck"]);
 
-  const [word,setWord] = useState([]);
+  const [word,setWord] = useState("");
   const [definition,setDefinition] = useState([]);
   const [pronunciation,setPronunciation] = useState("");
 
   function getAnimals(animals){
+    
     for(let i = 0; i < animals.length; i++){
       (async () => {
         let res = await fetch(`https://owlbot.info/api/v4/dictionary/${animals[i]}`,{
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            Authorization: "Token 08b6d412d2a92b706161ecd99c49bc5197b0703a",
+            Authorization: "Token 3ec95eb2727f567db0786d8806fdd6f32a001f1a",
         }},);
         let card = await res.json();
-        setWord(card.word);
+        // console.log('im a card: ' + card);
+        setWord(word.push(card));
+        console.log(word);
       })();}
   }
 
@@ -61,11 +66,18 @@ const AnimalCard = () => {
 
 
     return(
-      <p>{`${word}`}</p>
+      <div>
+        {word.map(word => {
+          return <SingleCard key={word.id} word={word} />
+        })}
+      </div>
+      
+      
+
     )
 };
 
-export default AnimalCard;
+export default AnimalCard; */
 
 // {definitions:
 // [ { type: 'noun',

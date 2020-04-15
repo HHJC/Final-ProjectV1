@@ -6,9 +6,18 @@ import User from "./components/User";
 import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
-import AnimalCard from "./Views/Animalsview/AnimalCard";
-import WordCard from "./Views/Words/WordCard";
+// import AnimalCard from "./Views/Animalsview/AnimalCard";
+// import WordCard from "./Views/Words/WordCard";
 import RecPractice from "./components/RecPractice";
+import Space from './Views/Space/Space';
+import Words from "./components/Words";
+import Animals from "./components/Animals";
+import FlashCard from './Views/ABCview/FlashCard';
+import NumberCards from "./Views/123view/NumberCard";
+import MathProblems from "./Views/Mathview/Math";
+
+
+
 
 
 
@@ -25,6 +34,15 @@ class App extends React.Component {
           <Route exact path="/User">
             <User />
           </Route>
+          <Route exact path="/Views/ABCview/FlashCard">
+          <FlashCard />
+          </Route>
+          <Route exact path="/Views/123view/NumberCard">
+          <NumberCards />
+          </Route>
+          <Route exact path="/Views/Mathview/Math">
+          <MathProblems />
+          </Route>
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
           </Route>
@@ -34,11 +52,14 @@ class App extends React.Component {
           <Route exact path="/Recipes">
             <Recipes />
           </Route>
-          <Route exact path="/Views/Animalsview/Animals">
-            <AnimalCard />
+           <Route exact path="/Animals">
+            <Animals />
+          </Route> 
+          <Route exact path="/Words">
+            <Words />
           </Route>
-          <Route exact path="/Views/Words/WordCard">
-            <WordCard />
+          <Route exact path="/Views/Space/Space">
+            <Space />
           </Route>
           <Route exact path="/RecPractice" component={RecPractice}/> 
           
