@@ -8,6 +8,7 @@ import { FaFlagUsa } from 'react-icons/fa';
 import { GiWorld } from 'react-icons/gi';
 import { GiPuzzle } from 'react-icons/gi';
 
+
  const GeographyHome = () =>  {
   const history = useHistory()
 
@@ -24,7 +25,7 @@ import { GiPuzzle } from 'react-icons/gi';
     <Card.Text>
       Have fun learning the continents of the world!
     </Card.Text>
-    <Button onClick={()=>history.push('/Continents')}  className="btn btn-primary m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Click to view</Button>
+    <Button onClick={()=>history.push('./views/Geography/Continents')}  className="btn btn-primary m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Click here </Button>
   </Card.Body>
 </Card>
 
@@ -35,7 +36,7 @@ import { GiPuzzle } from 'react-icons/gi';
     <Card.Text>
      A map of the United States including flashcards of the States.
     </Card.Text>
-    <Button onClick={()=>history.push('/50States')} className="btn btn-primary m-auto d-flex"><FaFlagUsa className="m-1 d-flex align-bottom"/> Lets learn</Button>
+    <Button onClick={()=>history.push('./Views/Geography/50States')} className="btn btn-primary m-auto d-flex"> <FaFlagUsa className="m-1 d-flex align-bottom"/> Lets Learn</Button>
   </Card.Body>
 </Card>
 
@@ -46,10 +47,10 @@ import { GiPuzzle } from 'react-icons/gi';
     <Card.Text>
       An interactive puzzle of the United States.
     </Card.Text>
-    <Button onClick={()=>history.push('/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Puzzle board</Button>
+    <Button onClick={()=>history.push('./Views/Gography/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Interactive Puzzle</Button>
   </Card.Body>
 </Card>
-
+       
 </Container>
   );
   

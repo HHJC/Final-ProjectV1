@@ -85,7 +85,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Learn the continents of the world and the 50 states.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Geography/geography')} className="btn btn-warning m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Lets Travel</Button>
+    <Button onClick={()=>history.push('/geography')} className="btn btn-warning m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Lets Travel</Button>
   </Card.Body>
 </Card>
 
