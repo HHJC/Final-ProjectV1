@@ -47,7 +47,7 @@ import { GiPuzzle } from 'react-icons/gi';
     <Card.Text>
       An interactive puzzle of the United States.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Gography/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Interactive Puzzle</Button>
+    <Button onClick={()=>history.push('./Views/Geography/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Interactive Puzzle</Button>
   </Card.Body>
 </Card>
        
