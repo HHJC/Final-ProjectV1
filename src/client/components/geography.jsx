@@ -24,7 +24,7 @@ import { GiPuzzle } from 'react-icons/gi';
     <Card.Text>
       Have fun learning the continents of the world!
     </Card.Text>
-    <Button onClick={()=>history.push('')}  className="btn btn-danger m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Click to view</Button>
+    <Button onClick={()=>history.push('/Continents')}  className="btn btn-primary m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Click to view</Button>
   </Card.Body>
 </Card>
 
@@ -33,9 +33,9 @@ import { GiPuzzle } from 'react-icons/gi';
   <Card.Body>
     <Card.Title>Learn the 50 States </Card.Title>
     <Card.Text>
-     text here
+     A map of the United States including flashcards of the States.
     </Card.Text>
-    <Button onClick={()=>history.push('/50States')} className="btn btn-warning m-auto d-flex"><FaFlagUsa className="m-1 d-flex align-bottom"/> Lets learn</Button>
+    <Button onClick={()=>history.push('/50States')} className="btn btn-primary m-auto d-flex"><FaFlagUsa className="m-1 d-flex align-bottom"/> Lets learn</Button>
   </Card.Body>
 </Card>
 
@@ -44,7 +44,7 @@ import { GiPuzzle } from 'react-icons/gi';
   <Card.Body>
     <Card.Title>United States Map Puzzle</Card.Title>
     <Card.Text>
-      text here
+      An interactive puzzle of the United States.
     </Card.Text>
     <Button onClick={()=>history.push('/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Puzzle board</Button>
   </Card.Body>

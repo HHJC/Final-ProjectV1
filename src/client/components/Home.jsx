@@ -41,7 +41,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
      A way to teach your kids words with flash cards
     </Card.Text>
-    <Button onClick={()=>history.push('/Words')} className="btn btn-warning m-auto d-flex"><FaBookReader className="m-1 d-flex align-bottom"/> Say It With Me</Button>
+    <Button onClick={()=>history.push('/Words')} className="btn btn-danger m-auto d-flex"><FaBookReader className="m-1 d-flex align-bottom"/> Say It With Me</Button>
   </Card.Body>
 </Card>
 
@@ -52,7 +52,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Have fun with these pictures an desriptions of Animals.
     </Card.Text>
-    <Button onClick={()=>history.push('/Animals')} className="btn btn-primary m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
+    <Button onClick={()=>history.push('/Animals')} className="btn btn-danger m-auto d-flex"><FaDog className="m-1 d-flex align-bottom"/>What Creature Is That</Button>
   </Card.Body>
 </Card>
 
@@ -63,7 +63,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Digital Flash Cards to help you teach your child their 123's.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/123view/NumberCard')}  className="btn btn-info m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
+    <Button onClick={()=>history.push('./Views/123view/NumberCard')}  className="btn btn-warning m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/> Flash Cards</Button>
   </Card.Body>
 </Card>
 
@@ -74,7 +74,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Basic Adding & Subtracting math solving.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Mathview/Math')}  className="btn btn-danger m-auto d-flex"><AiFillCalculator className="m-1 d-flex align-bottom"/>Solve Problems</Button>
+    <Button onClick={()=>history.push('./Views/Mathview/Math')}  className="btn btn-warning m-auto d-flex"><AiFillCalculator className="m-1 d-flex align-bottom"/>Solve Problems</Button>
   </Card.Body>
 </Card>
 
@@ -85,7 +85,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Learn the continents of the world and the 50 states.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Geography/geography')} className="btn btn-danger m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Lets Travel</Button>
+    <Button onClick={()=>history.push('./Views/Geography/geography')} className="btn btn-warning m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Lets Travel</Button>
   </Card.Body>
 </Card>
 
@@ -108,7 +108,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Fun videos of recipes and a list of ingredients.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/RecipeVideos')} className="btn btn-info m-auto d-flex"><GiCupcake className="m-1 d-flex align-bottom"/> Lets Cook</Button>
+    <Button onClick={()=>history.push('./Views/RecipeVideos')} className="btn btn-success m-auto d-flex"><GiCupcake className="m-1 d-flex align-bottom"/> Lets Cook</Button>
   </Card.Body>
 </Card>
 
@@ -119,7 +119,7 @@ import { AiFillCalculator } from 'react-icons/ai';
     <Card.Text>
       Gaze at the stars with you little ones and learn there stories.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Space/Space')}className="btn btn-danger m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
+    <Button onClick={()=>history.push('./Views/Space/Space')}className="btn btn-success m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
   </Card.Body>
 </Card>
 </Container>
