@@ -1,18 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-<<<<<<< HEAD
 import Container from "react-bootstrap/Container";
-=======
-import Button from "react-bootstrap/Button";
-import  Container  from 'react-bootstrap/Container';
-import {GiSpellBook} from 'react-icons/gi'
-import { useHistory } from "react-router";
->>>>>>> yes chef
 
 
 const StoryBooks = () => {
 
-  const history = useHistory()
+  // const history = useHistory()
 
   return (
     <Container
@@ -40,10 +33,6 @@ const StoryBooks = () => {
             <br />
             Read by: Mark Duplass
           </Card.Text>
-<<<<<<< HEAD
-=======
-          <Button onClick={()=>history.push('/Views/StoryBookView/StoryBook')} className="btn btn-warning mx-1"><GiSpellBook/>Start your Story</Button>
->>>>>>> yes chef
         </Card.Body>
       </Card>
 

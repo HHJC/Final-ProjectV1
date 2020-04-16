@@ -245,6 +245,7 @@ Enjoy!
                                 <Accordion.Collapse eventKey="0">
                                     <Card.Body>
                                     Two Ingredient Chocolate Cake
+                                    <hr/>
 4 eggs, whites and yolks separated
 9 oz semi sweet chocolate
 powdered sugar, to serve

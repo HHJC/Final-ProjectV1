@@ -32,12 +32,12 @@ class App extends React.Component {
           <Route exact path="/Views/ABCview/FlashCard">
           <FlashCard />
           </Route>
-          <Route exact path="/Views/123view/NumberCard">
+          {/* <Route exact path="/Views/123view/NumberCard">
           <NumberCards />
           </Route>
           <Route exact path="/Views/Mathview/Math">
           <MathProblems />
-          </Route>
+          </Route> */}
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
           </Route>
@@ -47,7 +47,7 @@ class App extends React.Component {
           <Route exact path="/Recipes">
             <Recipes />
           </Route>
-           <Route exact path="/Animals">
+           {/* <Route exact path="/Animals">
             <Animals />
           </Route> 
           <Route exact path="/Words">
@@ -58,7 +58,7 @@ class App extends React.Component {
           </Route>
           <Route exact path="/Views/StoryBookView/StoryBook">
             <StoryOne />
-          </Route> */}
+          </Route> */} */}
           <Route exact path="/RecPractice" component={RecPractice}/> 
           
         </Switch>
