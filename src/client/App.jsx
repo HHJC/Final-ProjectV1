@@ -12,7 +12,9 @@ import Animals from "./components/Animals";
 import FlashCard from './Views/ABCview/FlashCard';
 import NumberCards from "./Views/123view/NumberCard";
 import MathProblems from "./Views/Mathview/Math";
-import GeographyHome from "./Views/Geography/geography";
+import GeographyHome from "./components/geography";
+
+import Jigsaw from "./Views/Geography/Puzzle";
 
 
 class App extends React.Component {
@@ -36,8 +38,17 @@ class App extends React.Component {
           <Route exact path="/Views/Mathview/Math">
           <MathProblems />
           </Route>
-          <Route exact path="/Views/Geography/geography">
+          <Route exact path="/geography">
           <GeographyHome />
+          </Route>
+          {/* <Route exact path="/Views/Gography/50States">
+          < /> 
+          </Route>
+           <Route exact path="/Views/Gography/Continents">
+          < /> 
+          </Route>*/}
+          <Route exact path="/Views/Gography/Puzzle">
+          <Jigsaw />
           </Route>
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />

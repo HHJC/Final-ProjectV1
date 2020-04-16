@@ -46,7 +46,7 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
       text here
     </Card.Text>
-    <Button onClick={()=>history.push('../../components/Puzzle.jsx')} className="btn btn-primary m-auto d-flex">Click here </Button>
+    <Button onClick={()=>history.push('./Views/Gography/Puzzle')} className="btn btn-primary m-auto d-flex">Click here </Button>
   </Card.Body>
 </Card>
        
