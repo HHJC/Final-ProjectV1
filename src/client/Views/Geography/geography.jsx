@@ -7,6 +7,7 @@ import  Container  from 'react-bootstrap/Container';
 
 
 
+
  const GeographyHome = () =>  {
   const history = useHistory()
 
@@ -23,7 +24,7 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
       text here
     </Card.Text>
-    <Button onClick={()=>history.push('/Continents')}  className="btn btn-danger m-auto d-flex">Click here</Button>
+    <Button onClick={()=>history.push('../../components/Continents')}  className="btn btn-danger m-auto d-flex">Click here</Button>
   </Card.Body>
 </Card>
 
@@ -34,7 +35,7 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
      text here
     </Card.Text>
-    <Button onClick={()=>history.push('/50States')} className="btn btn-warning m-auto d-flex"> Click here</Button>
+    <Button onClick={()=>history.push('../../components/50States')} className="btn btn-warning m-auto d-flex"> Click here</Button>
   </Card.Body>
 </Card>
 
@@ -45,10 +46,10 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
       text here
     </Card.Text>
-    <Button onClick={()=>history.push('/Puzzle')} className="btn btn-primary m-auto d-flex">Click here </Button>
+    <Button onClick={()=>history.push('../../components/Puzzle.jsx')} className="btn btn-primary m-auto d-flex">Click here </Button>
   </Card.Body>
 </Card>
-
+       
 </Container>
   );
   
