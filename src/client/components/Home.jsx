@@ -117,7 +117,7 @@ import { AiFillCalculator } from 'react-icons/ai';
   <Card.Body>
     <Card.Title>Learn Your Stars</Card.Title>
     <Card.Text>
-      Gaze at the stars with you little ones and learn there stories.
+      Gaze at the stars with your little ones and learn their stories.
     </Card.Text>
     <Button onClick={()=>history.push('./Views/Space/Space')}className="btn btn-success m-auto d-flex"><GiStarSwirl className="m-1 d-flex align-bottom"/> Lets Star Gaze</Button>
   </Card.Body>
