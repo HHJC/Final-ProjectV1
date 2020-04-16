@@ -1,13 +1,13 @@
 import React from 'react';
 import  Card  from 'react-bootstrap/Card';
 import  Container  from 'react-bootstrap/Container';
-import  Button  from 'react-bootstrap/Button';
-import { useHistory } from "react-router-dom";
-import { IoIosArrowBack } from 'react-icons/io';
+// import  Button  from 'react-bootstrap/Button';
+// import { useHistory } from "react-router-dom";
+// import { IoIosArrowBack } from 'react-icons/io';
 
 
 const Continents = () =>  {
-  const history = useHistory()
+  // const history = useHistory()
 
 
 
