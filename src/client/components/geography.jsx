@@ -4,8 +4,9 @@ import  Card  from 'react-bootstrap/Card';
 //import  Link  from 'react-bootstrap/Link';
 import  Button  from 'react-bootstrap/Button';
 import  Container  from 'react-bootstrap/Container';
-
-
+import { FaFlagUsa } from 'react-icons/fa';
+import { GiWorld } from 'react-icons/gi';
+import { GiPuzzle } from 'react-icons/gi';
 
 
  const GeographyHome = () =>  {
@@ -22,9 +23,9 @@ import  Container  from 'react-bootstrap/Container';
   <Card.Body>
     <Card.Title>Learn the Continents</Card.Title>
     <Card.Text>
-      text here
+      Have fun learning the continents of the world!
     </Card.Text>
-    <Button onClick={()=>history.push('../../components/Continents')}  className="btn btn-danger m-auto d-flex">Click here</Button>
+    <Button onClick={()=>history.push('./views/Geography/Continents')}  className="btn btn-primary m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Click here </Button>
   </Card.Body>
 </Card>
 
@@ -33,9 +34,9 @@ import  Container  from 'react-bootstrap/Container';
   <Card.Body>
     <Card.Title>Learn the 50 States </Card.Title>
     <Card.Text>
-     text here
+     A map of the United States including flashcards of the States.
     </Card.Text>
-    <Button onClick={()=>history.push('../../components/50States')} className="btn btn-warning m-auto d-flex"> Click here</Button>
+    <Button onClick={()=>history.push('./Views/Geography/50States')} className="btn btn-primary m-auto d-flex"> <FaFlagUsa className="m-1 d-flex align-bottom"/> Lets Learn</Button>
   </Card.Body>
 </Card>
 
@@ -44,9 +45,9 @@ import  Container  from 'react-bootstrap/Container';
   <Card.Body>
     <Card.Title>United States Map Puzzle</Card.Title>
     <Card.Text>
-      text here
+      An interactive puzzle of the United States.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Gography/Puzzle')} className="btn btn-primary m-auto d-flex">Click here </Button>
+    <Button onClick={()=>history.push('./Views/Gography/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Interactive Puzzle</Button>
   </Card.Body>
 </Card>
        
