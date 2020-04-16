@@ -4,8 +4,9 @@ import  Card  from 'react-bootstrap/Card';
 //import  Link  from 'react-bootstrap/Link';
 import  Button  from 'react-bootstrap/Button';
 import  Container  from 'react-bootstrap/Container';
-
-
+import { FaFlagUsa } from 'react-icons/fa';
+import { GiWorld } from 'react-icons/gi';
+import { GiPuzzle } from 'react-icons/gi';
 
  const GeographyHome = () =>  {
   const history = useHistory()
@@ -21,9 +22,9 @@ import  Container  from 'react-bootstrap/Container';
   <Card.Body>
     <Card.Title>Learn the Continents</Card.Title>
     <Card.Text>
-      text here
+      Have fun learning the continents of the world!
     </Card.Text>
-    <Button onClick={()=>history.push('/Views/Geography/Continents')}  className="btn btn-danger m-auto d-flex">Click here</Button>
+    <Button onClick={()=>history.push('')}  className="btn btn-danger m-auto d-flex"><GiWorld className="m-1 d-flex align-bottom"/> Click to view</Button>
   </Card.Body>
 </Card>
 
@@ -34,7 +35,7 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
      text here
     </Card.Text>
-    <Button onClick={()=>history.push('/50States')} className="btn btn-warning m-auto d-flex"> Click here</Button>
+    <Button onClick={()=>history.push('/50States')} className="btn btn-warning m-auto d-flex"><FaFlagUsa className="m-1 d-flex align-bottom"/> Lets learn</Button>
   </Card.Body>
 </Card>
 
@@ -45,7 +46,7 @@ import  Container  from 'react-bootstrap/Container';
     <Card.Text>
       text here
     </Card.Text>
-    <Button onClick={()=>history.push('/Puzzle')} className="btn btn-primary m-auto d-flex">Click here </Button>
+    <Button onClick={()=>history.push('/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Puzzle board</Button>
   </Card.Body>
 </Card>
 

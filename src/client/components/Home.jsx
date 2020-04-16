@@ -11,6 +11,7 @@ import { GiBookshelf } from 'react-icons/gi';
 import { FaDog } from 'react-icons/fa';
 import { FaBookReader } from 'react-icons/fa';
 import { GiWorld } from 'react-icons/gi';
+import { AiFillCalculator } from 'react-icons/ai';
 
 
  const Home = () =>  {
@@ -73,7 +74,7 @@ import { GiWorld } from 'react-icons/gi';
     <Card.Text>
       Basic Adding & Subtracting math solving.
     </Card.Text>
-    <Button onClick={()=>history.push('./Views/Mathview/Math')}  className="btn btn-danger m-auto d-flex"><GiCardRandom className="m-1 d-flex align-bottom"/>Solve Problems</Button>
+    <Button onClick={()=>history.push('./Views/Mathview/Math')}  className="btn btn-danger m-auto d-flex"><AiFillCalculator className="m-1 d-flex align-bottom"/>Solve Problems</Button>
   </Card.Body>
 </Card>
 

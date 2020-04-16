@@ -12,7 +12,7 @@ import Animals from "./components/Animals";
 import FlashCard from './Views/ABCview/FlashCard';
 import NumberCards from "./Views/123view/NumberCard";
 import MathProblems from "./Views/Mathview/Math";
-import GeographyHome from "./Views/Geography/geography";
+import GeographyHome from "./components/geography";
 
 
 class App extends React.Component {
