@@ -1,30 +1,26 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 //import ReactDOM from 'react-dom';
-import originalImage from './images/original_usa.jpg';
-import './App.css';
+import originalImage from "./images/original_usa.jpg";
+import "./App.css";
 
 class Jigsaw extends Component {
   state = {
     pieces: [],
     shuffled: [],
     solved: [],
-    
   };
 
   componentDidMount() {
-    const pieces = [...Array(15)]
-      .map((_, i) => (
-        {
-          img: `map_${('0' + (i + 1)).substr(-2)}.jpg`,
-          order: i,
-          board: 'shuffled'
-        }
-      ));
+    const pieces = [...Array(15)].map((_, i) => ({
+      img: `map_${("0" + (i + 1)).substr(-2)}.jpg`,
+      order: i,
+      board: "shuffled",
+    }));
 
     this.setState({
       pieces,
       shuffled: this.shufflePieces(pieces),
-      solved: [...Array(15)]
+      solved: [...Array(15)],
     });
   }
 
@@ -32,8 +28,8 @@ class Jigsaw extends Component {
     let target = this.state[targetName];
     if (target[index]) return;
 
-    const pieceOrder = e.dataTransfer.getData('text');
-    const pieceData = this.state.pieces.find(p => p.order === +pieceOrder);
+    const pieceOrder = e.dataTransfer.getData("text");
+    const pieceData = this.state.pieces.find((p) => p.order === +pieceOrder);
     const origin = this.state[pieceData.board];
 
     if (targetName === pieceData.board) target = origin;
@@ -41,23 +37,30 @@ class Jigsaw extends Component {
     target[index] = pieceData;
     pieceData.board = targetName;
 
-    this.setState({ [pieceData.board]: origin, [targetName]: target })
+    this.setState({ [pieceData.board]: origin, [targetName]: target });
   }
 
   handleDragStart(e, order) {
     const dt = e.dataTransfer;
-    dt.setData('text/plain', order);
-    dt.effectAllowed = 'move';
+    dt.setData("text/plain", order);
+    dt.effectAllowed = "move";
   }
 
   render() {
     return (
       <div className="jigsaw">
         <ul className="jigsaw__shuffled-board">
-          {this.state.shuffled.map((piece, i) => this.renderPieceContainer(piece, i, 'shuffled'))}
+          {this.state.shuffled.map((piece, i) =>
+            this.renderPieceContainer(piece, i, "shuffled")
+          )}
         </ul>
-        <ol className="jigsaw__solved-board" style={{ backgroundImage: `url(${originalImage})` }}>
-          {this.state.solved.map((piece, i) => this.renderPieceContainer(piece, i, 'solved'))}
+        <ol
+          className="jigsaw__solved-board"
+          style={{ backgroundImage: `url(${originalImage})` }}
+        >
+          {this.state.solved.map((piece, i) =>
+            this.renderPieceContainer(piece, i, "solved")
+          )}
         </ol>
       </div>
     );
@@ -68,9 +71,16 @@ class Jigsaw extends Component {
       <li
         key={index}
         onDragOver={(e) => e.preventDefault()}
-        onDrop={(e) => this.handleDrop(e, index, boardName)}>
-        
-        { piece && <img draggable alt="" onDragStart={(e) => this.handleDragStart(e, piece.order)} src={require(`./images/${piece.img}`)} />}
+        onDrop={(e) => this.handleDrop(e, index, boardName)}
+      >
+        {piece && (
+          <img
+            draggable
+            alt=""
+            onDragStart={(e) => this.handleDragStart(e, piece.order)}
+            src={require(`./images/${piece.img}`)}
+          />
+        )}
       </li>
     );
   }
@@ -88,5 +98,4 @@ class Jigsaw extends Component {
     return shuffled;
   }
 }
-export default Jigsaw
-
+export default Jigsaw;

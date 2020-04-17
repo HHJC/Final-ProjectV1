@@ -14,21 +14,23 @@ const SpaceSingle = (props) => {
     //   <p>EXPLANATION: {props.image.explanation}</p>
     //   <img src={`${props.image.link}`} alt={`${props.image.title}`} />
     // </div>
-    <Figure style={{
-        
-    }}>
+    <Figure style={{}}>
       <Figure.Image
-        max-width={'100%'}
-        height={'auto'}
+        max-width={"100%"}
+        height={"auto"}
         alt={`${props.image.title}`}
         src={`${props.image.link}`}
         onClick={() => props.callback()}
       />
       <Figure.Caption>
-        <h1>{props.image.title} | {props.image.id}</h1>
+        <h1>
+          {props.image.title} | {props.image.id}
+        </h1>
         <p>{props.image.explanation}</p>
       </Figure.Caption>
-      <Button onClick={() => props.callback()} variant="primary">Next Picture</Button>
+      <Button onClick={() => props.callback()} variant="primary">
+        Next Picture
+      </Button>
     </Figure>
   );
 };

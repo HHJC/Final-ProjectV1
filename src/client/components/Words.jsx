@@ -42,7 +42,7 @@ class Words extends React.Component {
     "help",
     "here",
     // "I",
-    
+
     // "it",
     "jump",
     "little",
@@ -142,12 +142,15 @@ class Words extends React.Component {
       >
         {this.state.allWords.map((words) => (
           <Card className="m-3 mt-5 shadow border" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src= {require(`../img/words/${words.word}.jpg`)} style={{ height: '14rem' }} />
+            <Card.Img
+              variant="top"
+              src={require(`../img/words/${words.word}.jpg`)}
+              style={{ height: "14rem" }}
+            />
             <Card.Body>
               <Card.Title>{words.word}</Card.Title>
               <Card.Text>{words.definitions[0].definition}</Card.Text>
               <Card.Footer>{words.definitions[0].type}</Card.Footer>
-              
             </Card.Body>
           </Card>
         ))}

@@ -2,9 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 
-
 const StoryBooks = () => {
-
   // const history = useHistory()
 
   return (
@@ -71,14 +69,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Case of the Missing Carrot Cake</h3>
+          <h3>The Case of the Missing Carrot Cake</h3>
           <Card.Text>
-            Written by: Robin Newman 
-            <br/>
-            Illustrated by: Deborah Zemke 
-            <br/>
-            Published by: Creston Books, LLC 
-            <br/>
+            Written by: Robin Newman
+            <br />
+            Illustrated by: Deborah Zemke
+            <br />
+            Published by: Creston Books, LLC
+            <br />
             Read by: Wanda Sykes
           </Card.Text>
         </Card.Body>
@@ -95,14 +93,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Here Comes the Garabage Barge</h3>
+          <h3>Here Comes the Garabage Barge</h3>
           <Card.Text>
-            Written by: Jonah Winter 
-            <br/>
-            Illustrated by: Red Nose Studio 
-            <br/>
-            Published by: Schwartz & Wade Books 
-            <br/>
+            Written by: Jonah Winter
+            <br />
+            Illustrated by: Red Nose Studio
+            <br />
+            Published by: Schwartz & Wade Books
+            <br />
             Read by: Justin Theroux
           </Card.Text>
         </Card.Body>
@@ -119,7 +117,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Mice Twice</h3>
+          <h3>Mice Twice</h3>
           <Card.Text>
             Written by: Joseph Low
             <br />
@@ -143,14 +141,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Please Please the Bees</h3>
+          <h3>Please Please the Bees</h3>
           <Card.Text>
-            Written by: Gerald Kelley 
-            <br/>
-            Illustrated by: Gerald Kelley 
-            <br/>
-            Publishedby: Albert Whitman & Company 
-            <br/>
+            Written by: Gerald Kelley
+            <br />
+            Illustrated by: Gerald Kelley
+            <br />
+            Publishedby: Albert Whitman & Company
+            <br />
             Read by: Rashida Jones
           </Card.Text>
         </Card.Body>
@@ -167,7 +165,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Harry the Dirty Dog</h3>
+          <h3>Harry the Dirty Dog</h3>
           <Card.Text>
             Written by: Gene Zion
             <br />
@@ -191,7 +189,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Clark the Shark</h3>
+          <h3>Clark the Shark</h3>
           <Card.Text>
             Written by: Bruce Hale
             <br />
@@ -215,7 +213,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Rent Party Jazz</h3>
+          <h3>Rent Party Jazz</h3>
           <Card.Text>
             Written by: William Miller
             <br />
@@ -239,7 +237,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The House That Jane Built</h3>
+          <h3>The House That Jane Built</h3>
           <Card.Text>
             Written by: Tanya Lee Stone
             <br />
@@ -263,7 +261,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>As Fast As Words Could Fly</h3>
+          <h3>As Fast As Words Could Fly</h3>
           <Card.Text>
             Written by: Pamela M. Tuck
             <br />
@@ -287,7 +285,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Hey That's My Monster</h3>
+          <h3>Hey That's My Monster</h3>
           <Card.Text>
             Written by: Amanda Noll
             <br />
@@ -311,14 +309,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Coal Thief</h3>
+          <h3>The Coal Thief</h3>
           <Card.Text>
-            Written by: Alane Adams 
-            <br/>
-            Illustrated by: Lauren Gallegos 
-            <br/>
-            Published by: Rodina Press 
-            <br/>
+            Written by: Alane Adams
+            <br />
+            Illustrated by: Lauren Gallegos
+            <br />
+            Published by: Rodina Press
+            <br />
             Read by: Christian Slater
           </Card.Text>
         </Card.Body>
@@ -335,14 +333,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>How I Learned Geography</h3>
+          <h3>How I Learned Geography</h3>
           <Card.Text>
-            Written by: Uri Shulevitz 
-            <br/>
-            Illustrated by: Uri Shulevitz 
-            <br/>
-            Published by: Farrar, Straus and Giroux Books 
-            <br/>
+            Written by: Uri Shulevitz
+            <br />
+            Illustrated by: Uri Shulevitz
+            <br />
+            Published by: Farrar, Straus and Giroux Books
+            <br />
             Read by: Ed O'Neill
           </Card.Text>
         </Card.Body>
@@ -359,14 +357,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Carla's Sandwhich</h3>
+          <h3>Carla's Sandwhich</h3>
           <Card.Text>
-            Written by: Debbie Herman 
-            <br/>
-            Illustrated by: Sheila Bailey 
-            <br/>
-            Published by: Flashlight Press 
-            <br/>
+            Written by: Debbie Herman
+            <br />
+            Illustrated by: Sheila Bailey
+            <br />
+            Published by: Flashlight Press
+            <br />
             Read by: Allison Janney
           </Card.Text>
         </Card.Body>
@@ -383,14 +381,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Strega Nona</h3>
+          <h3>Strega Nona</h3>
           <Card.Text>
-            Written by: Tomie dePaola 
-            <br/>
-            Illustrated by: Tomie dePaola 
-            <br/>
-            Published by: Simon & Schuster 
-            <br/>
+            Written by: Tomie dePaola
+            <br />
+            Illustrated by: Tomie dePaola
+            <br />
+            Published by: Simon & Schuster
+            <br />
             Read by: Mary Steenburgen
           </Card.Text>
         </Card.Body>
@@ -407,7 +405,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Library Lion</h3>
+          <h3>Library Lion</h3>
           <Card.Text>
             Written by: Michelle Knudsen
             <br />
@@ -431,7 +429,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Chester's Way</h3>
+          <h3>Chester's Way</h3>
           <Card.Text>
             Written by: Kevin Henkes
             <br />
@@ -455,7 +453,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>I Need My Monster</h3>
+          <h3>I Need My Monster</h3>
           <Card.Text>
             Written by: Amanda Noll
             <br />
@@ -479,11 +477,11 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Kiss That Missed</h3>
+          <h3>The Kiss That Missed</h3>
           <Card.Text>
             Written by: David Melling
-            <br /> 
-            Illustrated by: David Melling 
+            <br />
+            Illustrated by: David Melling
             <br />
             Published by: Barron’s Educational Series
             <br />
@@ -503,14 +501,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Kissing Hand</h3>
+          <h3>The Kissing Hand</h3>
           <Card.Text>
-            Written by: Audrey Penn 
-            <br/>
-            Illustrated by: Ruth E. Harper and Nancy M. Leak 
-            <br/>
-            Published by: Tanglewood Press 
-            <br/>
+            Written by: Audrey Penn
+            <br />
+            Illustrated by: Ruth E. Harper and Nancy M. Leak
+            <br />
+            Published by: Tanglewood Press
+            <br />
             Read by: Barbara Bain
           </Card.Text>
         </Card.Body>
@@ -527,14 +525,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Catching the Moon</h3>
+          <h3>Catching the Moon</h3>
           <Card.Text>
-            Written by: Crystal Hubbard 
-            <br/>
-            Illustrated by: Randy DuBurke 
-            <br/>
-            Published by: Lee & Low Books 
-            <br/>
+            Written by: Crystal Hubbard
+            <br />
+            Illustrated by: Randy DuBurke
+            <br />
+            Published by: Lee & Low Books
+            <br />
             Read by: Kevin Costner and Jillian Estell
           </Card.Text>
         </Card.Body>
@@ -551,14 +549,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Hanukkah in Alaska</h3>
+          <h3>Hanukkah in Alaska</h3>
           <Card.Text>
-            Written by: Barbara Brown 
-            <br/>
-            Illustrated by: Stacey Schuett 
-            <br/>
-            Published by: Henry Holt and Co. 
-            <br/>
+            Written by: Barbara Brown
+            <br />
+            Illustrated by: Stacey Schuett
+            <br />
+            Published by: Henry Holt and Co.
+            <br />
             Read by: Molly Ephraim
           </Card.Text>
         </Card.Body>
@@ -575,14 +573,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>A Tale of Two Beasts</h3>
+          <h3>A Tale of Two Beasts</h3>
           <Card.Text>
-            Written by: Fiona Roberton 
-            <br/>
-            Illustrated by: Fiona Roberton 
-            <br/>
-            Published by: Kane Miller Books 
-            <br/>          
+            Written by: Fiona Roberton
+            <br />
+            Illustrated by: Fiona Roberton
+            <br />
+            Published by: Kane Miller Books
+            <br />
             Read by: Sarah Silverman
           </Card.Text>
         </Card.Body>
@@ -599,14 +597,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Me and My Cat</h3>
+          <h3>Me and My Cat</h3>
           <Card.Text>
-            Written by: Satoshi Kitamura 
-            <br/>
+            Written by: Satoshi Kitamura
+            <br />
             Illustrated by: Satoshi Kitamura
-            <br/>
-            Published by: Andersen Press 
-            <br/>
+            <br />
+            Published by: Andersen Press
+            <br />
             Read by: Elijah Wood
           </Card.Text>
         </Card.Body>
@@ -623,14 +621,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Lotus & Feather</h3>
+          <h3>Lotus & Feather</h3>
           <Card.Text>
-            Written by: Ji-li Jiang 
-            <br/>
-            Illustrated by: Julie Downing 
-            <br/>
-            Published by: Disney Hyperion 
-            <br/>
+            Written by: Ji-li Jiang
+            <br />
+            Illustrated by: Julie Downing
+            <br />
+            Published by: Disney Hyperion
+            <br />
             Read by: Michelle Yeoh
           </Card.Text>
         </Card.Body>
@@ -647,14 +645,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Hula-Hoopin' Queen</h3>
+          <h3>The Hula-Hoopin' Queen</h3>
           <Card.Text>
-            Written by: Thelma Godin 
-            <br/>
+            Written by: Thelma Godin
+            <br />
             Illustrated by: Vanessa Brantley-Newton
-            <br/>
-            Published by: Lee & Low Books 
-            <br/>
+            <br />
+            Published by: Lee & Low Books
+            <br />
             Read by: Oprah Winfrey
           </Card.Text>
         </Card.Body>
@@ -671,14 +669,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Elves and the Shoemaker</h3>
+          <h3>The Elves and the Shoemaker</h3>
           <Card.Text>
-            Written by: Brothers Grimm & Jim LaMarche 
-            <br/>
-            Illustrated by: Jim LaMarche 
-            <br/>
+            Written by: Brothers Grimm & Jim LaMarche
+            <br />
+            Illustrated by: Jim LaMarche
+            <br />
             Published by: Chronicle Books
-            <br/> 
+            <br />
             Read by: Chrissy Metz
           </Card.Text>
         </Card.Body>
@@ -695,14 +693,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Private I. Guana</h3>
+          <h3>Private I. Guana</h3>
           <Card.Text>
-            Written by: Nina Laden 
-            <br/>
-            Illustrated by: Nina Laden 
-            <br/>
-            Published by: Chronicle Books 
-            <br/>
+            Written by: Nina Laden
+            <br />
+            Illustrated by: Nina Laden
+            <br />
+            Published by: Chronicle Books
+            <br />
             Read by: Esai Morales
           </Card.Text>
         </Card.Body>
@@ -719,14 +717,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Turkey Trouble</h3>
+          <h3>Turkey Trouble</h3>
           <Card.Text>
-            Written by: Wendi Silvano 
-            <br/>
-            Illustrated by: Lee Harper 
-            <br/>
-            Published by: Two Lions 
-            <br/>
+            Written by: Wendi Silvano
+            <br />
+            Illustrated by: Lee Harper
+            <br />
+            Published by: Two Lions
+            <br />
             Read by: Marc Maron
           </Card.Text>
         </Card.Body>
@@ -743,14 +741,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Sylvester and the Magic Pebble</h3>
+          <h3>Sylvester and the Magic Pebble</h3>
           <Card.Text>
-            Written by: William Steig 
-            <br/>
-            Illustrated by: William Steig 
-            <br/>
-            Published by: Simon & Schuster Books for Young Readers 
-            <br/>
+            Written by: William Steig
+            <br />
+            Illustrated by: William Steig
+            <br />
+            Published by: Simon & Schuster Books for Young Readers
+            <br />
             Read by: Reid Scot
           </Card.Text>
         </Card.Body>
@@ -767,14 +765,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Arnie the Doughnut</h3>
+          <h3>Arnie the Doughnut</h3>
           <Card.Text>
-            Written by: Laurie Keller 
-            <br/>
-            Illustrated by: Laurie Keller 
-            <br/>
-            Published by: Henry Holt & Company - Macmillan Publishers 
-            <br/>
+            Written by: Laurie Keller
+            <br />
+            Illustrated by: Laurie Keller
+            <br />
+            Published by: Henry Holt & Company - Macmillan Publishers
+            <br />
             Read by: Chris O'Dowd
           </Card.Text>
         </Card.Body>
@@ -791,14 +789,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>No More Noisy Nights</h3>
+          <h3>No More Noisy Nights</h3>
           <Card.Text>
-            Written by: Holly L. Niner 
-            <br/>
-            Illustrated by: Guy Wolek 
-            <br/>
-            Published by: Flashlight Press 
-            <br/>
+            Written by: Holly L. Niner
+            <br />
+            Illustrated by: Guy Wolek
+            <br />
+            Published by: Flashlight Press
+            <br />
             Read by: Tony Hale
           </Card.Text>
         </Card.Body>
@@ -815,14 +813,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Quackenstein Hatches</h3>
+          <h3>Quackenstein Hatches</h3>
           <Card.Text>
-            Written by: Sudipta Bardhan-Quallen 
-            <br/>
+            Written by: Sudipta Bardhan-Quallen
+            <br />
             Illustrated by: Brian T. Jones
-            <br/>
-            Published by: Abrams Books 
-            <br/>
+            <br />
+            Published by: Abrams Books
+            <br />
             Read by: Kristen Bell
           </Card.Text>
         </Card.Body>
@@ -839,7 +837,7 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>The Empty Pot</h3>
+          <h3>The Empty Pot</h3>
           <Card.Text>
             Written by: Demi
             <br />
@@ -863,14 +861,14 @@ const StoryBooks = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
         ></iframe>
         <Card.Body>
-        <h3>Snappy The Alligator(Did Not Ask to Be in This Book)</h3>
+          <h3>Snappy The Alligator(Did Not Ask to Be in This Book)</h3>
           <Card.Text>
-            Written by: Julie Falatko 
-            <br/>
-            Illustrated by: Tim Miller 
-            <br/>
-            Published by: Viking Books 
-            <br/>
+            Written by: Julie Falatko
+            <br />
+            Illustrated by: Tim Miller
+            <br />
+            Published by: Viking Books
+            <br />
             Read by: David Harbour
           </Card.Text>
         </Card.Body>
