@@ -31,13 +31,13 @@ const MathProblems = () => {
   const [card11Val, setCard11Val] = useState(null);
   const [card12Val, setCard12Val] = useState(null);
 
-//   const handleSubmit = () => {
-//     if (card12Val === "4") {
-//       alert("CORRECT");
-//     } else {
-//       alert("INCORRECT");
-//     }
-//   };
+  //   const handleSubmit = () => {
+  //     if (card12Val === "4") {
+  //       alert("CORRECT");
+  //     } else {
+  //       alert("INCORRECT");
+  //     }
+  //   };
 
   return (
     <Container
@@ -74,7 +74,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card1Val}
@@ -83,7 +83,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card1Val === "2") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card1Val === "2") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -127,7 +133,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card2Val}
@@ -136,7 +142,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card2Val === "3") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card2Val === "3") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -180,7 +192,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card3Val}
@@ -189,7 +201,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card3Val === "4") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card3Val === "4") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -233,7 +251,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card4Val}
@@ -242,7 +260,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card4Val === "5") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card4Val === "5") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -286,7 +310,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card5Val}
@@ -295,7 +319,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card5Val === "6") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card5Val === "6") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -339,7 +369,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card6Val}
@@ -348,7 +378,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card6Val === "7") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card6Val === "7") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -392,7 +428,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card7Val}
@@ -401,7 +437,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card7Val === "1") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card7Val === "1") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -445,7 +487,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card8Val}
@@ -454,7 +496,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card8Val === "2") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card8Val === "2") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -498,7 +546,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card9Val}
@@ -507,7 +555,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card9Val === "4") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card9Val === "4") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -551,7 +605,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card10Val}
@@ -560,7 +614,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card10Val === "3") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card10Val === "3") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -604,7 +664,7 @@ const MathProblems = () => {
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
           <h4>
-          <form>
+            <form>
               <input
                 type="text"
                 value={card11Val}
@@ -613,7 +673,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card11Val === "0") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card11Val === "0") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button
@@ -666,7 +732,13 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {if (card12Val === "4") {alert("CORRECT"); } else {alert("INCORRECT");}}}
+                onClick={function handleSubmit() {
+                  if (card12Val === "4") {
+                    alert("CORRECT");
+                  } else {
+                    alert("INCORRECT");
+                  }
+                }}
               ></input>
             </form>
             <button

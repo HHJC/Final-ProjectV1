@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 //import AnimalCard from "./../Views/Animalsview/AnimalCard";
@@ -52,16 +52,8 @@ class Animals extends React.Component {
     "fish",
     "duck",
   ];
-  
-   
-  
-  
-     
-  
+
   // if(animals.length == images)
-
-
-
 
   fetchWords(url) {
     fetch(`https://owlbot.info/api/v4/dictionary/${url}`, {
@@ -98,7 +90,11 @@ class Animals extends React.Component {
       >
         {this.state.allAnimals.map((animal) => (
           <Card className="m-3 mt-5 shadow border" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={require(`../img/animals/${animal.word}.jpg`)} style={{ height: '18rem', padding: '10px'}} />
+            <Card.Img
+              variant="top"
+              src={require(`../img/animals/${animal.word}.jpg`)}
+              style={{ height: "18rem", padding: "10px" }}
+            />
             <Card.Body>
               <Card.Title>{animal.word}</Card.Title>
               <Card.Text>{animal.definitions[0].definition}</Card.Text>
@@ -109,13 +105,11 @@ class Animals extends React.Component {
     );
   }
 }
-export default Animals; 
-
+export default Animals;
 
 //get the list of all files with .jpg extension in the directory and safe it in an array named $images
 
 //extract only the name of the file without the extension and save in an array named $find
-
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // {definitions:

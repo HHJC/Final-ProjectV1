@@ -1,4 +1,3 @@
-
 import React from "react";
 //import { useHistory } from "react-router-dom";
 import InputGroup from "react-bootstrap/InputGroup";
@@ -10,7 +9,6 @@ import Dropdown from "react-bootstrap/Dropdown";
 
 const User = () => {
   //const history = useHistory();
-
 
   return (
     <>
@@ -42,7 +40,6 @@ const User = () => {
       </div>
     </>
   );
-
-}
+};
 
 export default User;

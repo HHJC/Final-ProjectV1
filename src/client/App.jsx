@@ -6,17 +6,17 @@ import User from "./components/User";
 import Recipes from "./components/Recipes";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
-import Space from './Views/Space/Space';
+import Space from "./Views/Space/Space";
 import Words from "./components/Words";
 import Animals from "./components/Animals";
-import FlashCard from './Views/ABCview/FlashCard';
+import FlashCard from "./Views/ABCview/FlashCard";
 import NumberCards from "./Views/123view/NumberCard";
 import MathProblems from "./Views/Mathview/Math";
 import GeographyHome from "./components/geography";
 import Jigsaw from "./Views/Geography/Puzzle";
 import Continents from "./Views/Geography/Continents";
 import States from "./Views/Geography/50States";
-
+import StateCards from "./Views/Geography/stateCards";
 
 class App extends React.Component {
   render() {
@@ -31,25 +31,33 @@ class App extends React.Component {
             <User />
           </Route>
           <Route exact path="/Views/ABCview/FlashCard">
-          <FlashCard />
+            <FlashCard />
           </Route>
           <Route exact path="/Views/123view/NumberCard">
-          <NumberCards />
+            <NumberCards />
           </Route>
           <Route exact path="/Views/Mathview/Math">
-          <MathProblems />
+            <MathProblems />
           </Route>
+
           <Route exact path="/geography">
-          <GeographyHome />
+            <GeographyHome />
           </Route>
+
           <Route exact path="/Views/Geography/50States">
             <States />
           </Route>
-           <Route exact path="/Views/Geography/Continents"> 
-           <Continents />
+
+          <Route exact path="/Views/Geography/stateCards">
+            <StateCards />
           </Route>
+
+          <Route exact path="/Views/Geography/Continents">
+            <Continents />
+          </Route>
+
           <Route exact path="/Views/Geography/Puzzle">
-          <Jigsaw />
+            <Jigsaw />
           </Route>
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
@@ -62,7 +70,7 @@ class App extends React.Component {
           </Route>
           <Route exact path="/Animals">
             <Animals />
-          </Route> 
+          </Route>
           <Route exact path="/Words">
             <Words />
           </Route>
