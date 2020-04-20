@@ -24,18 +24,23 @@ class App extends React.Component {
       <BrowserRouter>
         <NavBar />
         <Switch>
+          
           <Route exact path="/">
             <Home />
           </Route>
+
           <Route exact path="/User">
             <User />
           </Route>
+
           <Route exact path="/Views/ABCview/FlashCard">
             <FlashCard />
           </Route>
+
           <Route exact path="/Views/123view/NumberCard">
             <NumberCards />
           </Route>
+
           <Route exact path="/Views/Mathview/Math">
             <MathProblems />
           </Route>
@@ -59,28 +64,36 @@ class App extends React.Component {
           <Route exact path="/Views/Geography/Puzzle">
             <Jigsaw />
           </Route>
+
           <Route exact path="/Views/StoryBookView/StoryBooks">
             <StoryBooks />
           </Route>
+
           <Route exact path="/Views/RecipeVideos">
             <RecipeVideos />
           </Route>
+<<<<<<< HEAD
           <Route exact path="/About">
             <About />
+=======
+
+          <Route exact path="/Recipes">
+            <Recipes />
+>>>>>>> 4f357c035cc6f97892e1e9bcf05ca3b7ecfae8b9
           </Route>
+
           <Route exact path="/Animals">
             <Animals />
           </Route>
+
           <Route exact path="/Words">
             <Words />
           </Route>
+
           <Route exact path="/Views/Space/Space">
             <Space />
           </Route>
-          {/* <Route exact path="/Views/StoryBookView/StoryBook">
-            <StoryOne />
-          </Route>
-           */}
+
         </Switch>
       </BrowserRouter>
     );

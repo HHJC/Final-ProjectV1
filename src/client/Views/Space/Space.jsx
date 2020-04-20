@@ -1,31 +1,31 @@
 import * as React from "react";
-// import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-// import Button from "react-bootstrap/Button";
-//import Carousel from "react-bootstrap/Carousel";
-//import Button from "react-bootstrap/Button";
-import SpaceSingle from "./SpaceSingle";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import TestGrid from "./TestGrid";
 
 class Space extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       images: null,
-      current: 0,
+      formatted: null,
     };
   }
-
-  nextIndex = () => {
-    this.setState({ current: this.state.current + 1 });
-  };
 
   async componentDidMount() {
     try {
       let r = await fetch("/api/images");
       let images = await r.json();
-      this.setState({ images });
+      //map images to gallery format
+      let formatted = images.map((image) => {
+        let temp = {};
+        temp.src = image.link;
+        temp.thumbnail = image.link;
+        temp.caption = image.explanation;
+        temp.customOverlay = (
+          <span className={"text-white"}>{image.title}</span>
+        );
+        return temp;
+      });
+      this.setState({ images, formatted });
     } catch (error) {
       console.log(error);
     }
@@ -34,19 +34,7 @@ class Space extends React.Component {
   render() {
     // console.log(this.state.images);
     if (this.state.images != null) {
-      return (
-        <Container>
-          <Row>
-            <Col>
-              <SpaceSingle
-                key={this.state.images[this.state.current].id}
-                image={this.state.images[this.state.current]}
-                callback={this.nextIndex}
-              />
-            </Col>
-          </Row>
-        </Container>
-      );
+      return <TestGrid images={this.state.formatted} />;
     } else {
       console.log("got here");
       return null;

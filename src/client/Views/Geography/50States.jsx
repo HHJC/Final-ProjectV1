@@ -19,7 +19,7 @@ const States = () => {
       >
         <Card.Img
           variant="top"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Map_of_USA_with_state_names.svg/959px-Map_of_USA_with_state_names.svg.png"
+          src="https://www.ephotopix.com/wp-content/uploads/2018/11/USA-States-Color-Map.jpg"
         />
         <Card.Body>
           <Card.Title>
@@ -27,7 +27,7 @@ const States = () => {
           </Card.Title>
           <Button
             onClick={() => history.push("/Views/Geography/StateCards")}
-            className="btn btn-danger m-auto d-flex"
+            className="btn btn-primary m-auto d-flex"
           >
             <FaMapMarkerAlt className="m-1 d-flex align-bottom" /> Click me to
             learn about each state!
