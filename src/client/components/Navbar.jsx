@@ -22,7 +22,7 @@ const NavBar = () => {
         <Button onClick={() => history.push("/Recipes")} className="btn-md btn-warning mx-1 justify-content-end"><GiShinyApple className="m-1 d-flex justify-content-center m-auto"/> About Me</Button>
         <Button onClick={() => history.goBack()} className="btn-md btn-warning mx-1 justify-content-end"><IoMdArrowRoundBack className="m-1 d-flex justify-content-center m-auto"/> Go Back</Button>
         </Nav>
-        <Navbar.Brand href="#home" cl><h2>Learn & Play</h2></Navbar.Brand>
+        <Navbar.Brand href="/home"><h2>Learn & Play</h2></Navbar.Brand>
         </Navbar>
     
     );
