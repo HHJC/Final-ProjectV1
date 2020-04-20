@@ -119,7 +119,7 @@ class Words extends React.Component {
             />
             <Card.Body>
               <Card.Title>{words.word}</Card.Title>
-              {/* <Card.Text>{words.definitions[0].definition}</Card.Text> */}
+              <Card.Text>{words.definitions[0].definition}</Card.Text>
               <Card.Footer>{words.definitions[0].type}</Card.Footer>
             </Card.Body>
           </Card>
