@@ -3,7 +3,7 @@ import React from "react";
 //import    from 'react-bootstrap/';
 import {
   Jumbotron,
-  Accordion,
+  Modal,
   Card,
   Button,
   Container,
@@ -17,7 +17,7 @@ const RecipeVideos = () => {
   return (
     <Container className="d-flex flex-column">
       <div>
-        <Jumbotron fluid>
+        <Jumbotron fluid style={{backgroundColor:"#FFC107"}}>
           <Container fluid>
             <h1 className="text-center">Let's Get Cooking!</h1>
           </Container>
@@ -25,7 +25,7 @@ const RecipeVideos = () => {
       </div>
 
       <Row>
-        <Col lg={4} className="video-container">
+        <Col lg={4} className="video-container 1">
           <iframe
             title="Cooking"
             width="340"
@@ -34,16 +34,31 @@ const RecipeVideos = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           ></iframe>
-          <Accordion>
-            <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="success" eventKey="0">
-                  Instructions and Ingredients
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>
-                  Scrambled eggs
+          <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
+            <Card.Header>
+            </Card.Header>
+
+            <Card.Body>
+      <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click for Ingredients and Instructions
+</Button>
+            </Card.Body>
+          </Card>
+
+    
+
+          <Modal>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <Button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </Button>
+                  </div>
+                  <div class="modal-body">
+                    Scrambled eggs
                   <hr />
                   Take 3 eggs, 2 tbsp of milk combine and wisk stove to light
                   heat pour eggs onto pan scramble eggs
@@ -59,30 +74,52 @@ const RecipeVideos = () => {
                   sugar and a handful of chopped pecans in each tin. Add 1
                   biscuit from a can of niscuits into each tin, press firmly.
                   Bake at 350 degrees for 8 minutes.
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
+      </div>
+                  <div class="modal-footer">
+                    <Button type="button" class="btn btn-secondary" data-dismiss="modal">Close</Button>
+                    <Button type="button" class="btn btn-primary">Save changes</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Modal>
+
+
+
         </Col>
-        <Col lg={4} className="video-container">
+        <Col lg={4} className="video-container 2">
           <iframe
-            title="tasty"
+            title="Cooking"
             width="340"
             height="380"
             src="https://www.youtube.com/embed/FcKvYl-GaAA"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           ></iframe>
-          <Accordion>
-            <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="success" eventKey="0">
-                  Instructions and Ingredients
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>
+          <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
+            <Card.Header>
+            </Card.Header>
+
+            <Card.Body>
+      <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click for Ingredients and Instructions
+</Button>
+            </Card.Body>
+          </Card>
+
+    
+
+          <Modal>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <Button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </Button>
+                  </div>
+                  <div class="modal-body">
                   "Sugar Cookie Pizza"
                   <hr />
                   ½ cup unsalted butter, 1 stick, softened 1 ½ teaspoons vanilla
@@ -250,30 +287,139 @@ const RecipeVideos = () => {
                   chocolate, top with sprinkles, and chill until firm. Top the
                   cheesecake with the sprinkles, unicorn horns, gumballs, and
                   the lollipop. Enjoy!
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
+                    
+      </div>
+                  <div class="modal-footer">
+                    <Button type="button" class="btn btn-secondary" data-dismiss="modal">Close</Button>
+                    <Button type="button" class="btn btn-primary">Save changes</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Modal>
+
+
+
         </Col>
-        <Col lg={4} className="video-container">
+        <Col lg={4} className="video-container 3">
           <iframe
-            title="cooking"
+            title="Cooking"
+            width="340"
+            height="380"
+            src="https://www.youtube.com/embed/zrXWIWlF5_M"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+          ></iframe>
+          <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
+            <Card.Header>
+            </Card.Header>
+
+            <Card.Body>
+      <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click for Ingredients and Instructions
+</Button>
+
+            </Card.Body>
+          </Card>
+ <Modal>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <Button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </Button>
+                  </div>
+                  <div class="modal-body">
+
+                  Brown Paper popcorn
+                  <br />
+                  1/3 cup of popcorn 1 paper bag
+                  <br />
+                  Preparation
+                  <br />
+                  Microwave 1/3 cup popcorn in a brown paper bag (folding down
+                  the corners of the bag so it doesn't open) for about 2.5
+                  minutes. When popping slows down, remove. Be sure to monitor
+                  so nothing burns.
+                  <br />
+                  Pop tarts
+                  <br />
+                  Unroll a can of crescent rolls, keeping them as rectangles.
+                  Pinch the seems closed. Spoon about 1 tablespoon jam in the
+                  center of rectangle, leaving about 1/4 inch empty along the
+                  edges. Place another rectangle on top and crimp edges with a
+                  fork. Bake at 425 for about 8-10 minutes.
+                  <br />
+                  Fruit Dip
+                  <br />
+                  Mix ¼ cup greek yogurt, ¼ cup almond butter, 1 tbsp honey, ¼
+                  tsp cinnamon, ¼ tsp vanilla in a small bowl. Dip strawberries
+                  and apples!
+                  <br />
+                  Hummus Cocktail
+                  <br />
+                  Scoop hummus into plastic cup. Optional Vegetables - Carrots,
+                  Bell Pepper, Cucumber etc
+                  <br />
+                  Mug Cake
+                  <br />
+                  Mix 1 tbsp cocoa powder, 3 tbsp flour, 1/8 tsp salt, 1/4 tsp
+                  baking powder, 1 tbsp sugar, 3 tsp coconut or vegetable oil, 3
+                  tbsp milk, 1/2 tsp pure vanilla extract and 1 tbsp
+                  kid-friendly protein powder in a bowl. Pour into a mug and
+                  microwave for 1-1.5 minutes.
+                  
+      </div>
+                  <div class="modal-footer">
+                    <Button type="button" class="btn btn-secondary" data-dismiss="modal">Close</Button>
+                    <Button type="button" class="btn btn-primary">Save changes</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Modal>
+
+        </Col>
+        </Row>
+        <br/>
+        <br/>
+        <br/>
+        <Row>
+        <Col lg={4} className="video-container 4">
+          <iframe
+            title="Cooking"
             width="340"
             height="380"
             src="https://www.youtube.com/embed/vrpof_QQUe0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           ></iframe>
-          <Accordion>
-            <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="success" eventKey="0">
-                  Instructions and Ingredients
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>
+          <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
+            <Card.Header>
+            </Card.Header>
+
+            <Card.Body>
+      <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click for Ingredients and Instructions
+</Button>
+            </Card.Body>
+          </Card>
+
+    
+
+          <Modal>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <Button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </Button>
+                  </div>
+                  <div class="modal-body">
                   Two Ingredient Chocolate Cake
                   <hr />
                   4 eggs, whites and yolks separated 9 oz semi sweet chocolate
@@ -354,34 +500,50 @@ const RecipeVideos = () => {
                   smooth. Pour the mixture into a greased ramekin. Clean the
                   rims so the soufflé rises evenly, and bake for 15-17 minutes.
                   Serve immediately. Enjoy!
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
-        </Col>
-      </Row>
-      <br />
-      <br />
-      <Row>
-        <Col lg={4} className="video-container">
+      </div>
+                  <div class="modal-footer">
+                    <Button type="button" class="btn btn-secondary" data-dismiss="modal">Close</Button>
+                    <Button type="button" class="btn btn-primary">Save changes</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Modal>
+</Col>
+      
+        <Col lg={4} className="video-container 5">
           <iframe
-            title="cooking"
+            title="Cooking"
             width="340"
             height="380"
             src="https://www.youtube.com/embed/fuEkA9rG_nI"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           ></iframe>
-          <Accordion>
-            <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="success" eventKey="0">
-                  Instructions and Ingredients
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>
+          <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
+            <Card.Header>
+            </Card.Header>
+
+            <Card.Body>
+      <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click for Ingredients and Instructions
+</Button>
+            </Card.Body>
+          </Card>
+
+    
+
+          <Modal>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <Button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </Button>
+                  </div>
+                  <div class="modal-body">
                   Yummy Fluffy Vanilla Cupcakes
                   <br />
                   self raising flour 200 grams (7/8th of a cup) 200 grams of
@@ -398,91 +560,46 @@ const RecipeVideos = () => {
                   mix for 30 seconds on low. Take cupcake pan, fill each cup
                   with 2 tbsp of mixture. Place into 340 degree oven for 16-17
                   minutes. Let cool for 20 minutes before icing.
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
-        </Col>
-        <Col lg={4} className="video-container">
+      </div>
+                  <div class="modal-footer">
+                    <Button type="button" class="btn btn-secondary" data-dismiss="modal">Close</Button>
+                    <Button type="button" class="btn btn-primary">Save changes</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Modal>
+
+        </Col><Col lg={4} className="video-container">
           <iframe
-            title="cooking"
-            width="350"
-            height="380"
-            src="https://www.youtube.com/embed/zrXWIWlF5_M"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <Accordion>
-            <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="success" eventKey="0">
-                  Instructions and Ingredients
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>
-                  Brown Paper popcorn
-                  <br />
-                  1/3 cup of popcorn 1 paper bag
-                  <br />
-                  Preparation
-                  <br />
-                  Microwave 1/3 cup popcorn in a brown paper bag (folding down
-                  the corners of the bag so it doesn't open) for about 2.5
-                  minutes. When popping slows down, remove. Be sure to monitor
-                  so nothing burns.
-                  <br />
-                  Pop tarts
-                  <br />
-                  Unroll a can of crescent rolls, keeping them as rectangles.
-                  Pinch the seems closed. Spoon about 1 tablespoon jam in the
-                  center of rectangle, leaving about 1/4 inch empty along the
-                  edges. Place another rectangle on top and crimp edges with a
-                  fork. Bake at 425 for about 8-10 minutes.
-                  <br />
-                  Fruit Dip
-                  <br />
-                  Mix ¼ cup greek yogurt, ¼ cup almond butter, 1 tbsp honey, ¼
-                  tsp cinnamon, ¼ tsp vanilla in a small bowl. Dip strawberries
-                  and apples!
-                  <br />
-                  Hummus Cocktail
-                  <br />
-                  Scoop hummus into plastic cup. Optional Vegetables - Carrots,
-                  Bell Pepper, Cucumber etc
-                  <br />
-                  Mug Cake
-                  <br />
-                  Mix 1 tbsp cocoa powder, 3 tbsp flour, 1/8 tsp salt, 1/4 tsp
-                  baking powder, 1 tbsp sugar, 3 tsp coconut or vegetable oil, 3
-                  tbsp milk, 1/2 tsp pure vanilla extract and 1 tbsp
-                  kid-friendly protein powder in a bowl. Pour into a mug and
-                  microwave for 1-1.5 minutes.
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
-        </Col>
-        <Col lg={4} className="video-container">
-          <iframe
-            title="cooking"
+            title="Cooking"
             width="340"
             height="380"
             src="https://www.youtube.com/embed/CpDqOH3uyAI"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           ></iframe>
-          <Accordion>
-            <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="success" eventKey="0">
-                  Instructions and Ingredients
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>
+          <Card className=" mt-1 shadow border" style={{ width: "auto" }}>
+            <Card.Header>
+            </Card.Header>
+
+            <Card.Body>
+      <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click for Ingredients and Instructions
+</Button>
+            </Card.Body>
+          </Card>
+  <Modal>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <Button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </Button>
+                  </div>
+                  <div class="modal-body">
                   Ice Cream Sandwich Cake Whipped Cream
                   <br />
                   2 cups (or one container) whipping cream 3 tablespoons
@@ -534,13 +651,18 @@ const RecipeVideos = () => {
                   raspberries, smushing them to release their juices. Mix in
                   chocolate chips. Freeze for 30 minutes. Stir. Freeze again for
                   15 min longer. Serve!
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
-        </Col>
-      </Row>
-    </Container>
+      </div>
+                  <div class="modal-footer">
+                    <Button type="button" class="btn btn-secondary" data-dismiss="modal">Close</Button>
+                    <Button type="button" class="btn btn-primary">Save changes</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Modal>
+          </Col>
+</Row>
+</Container>
   );
 };
 export default RecipeVideos;
