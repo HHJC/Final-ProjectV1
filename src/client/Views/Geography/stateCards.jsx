@@ -90,10 +90,10 @@ const StateCards = () => {
                                         key={placement}
                                         placement={placement}
                                         overlay={
-                                            <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
+                                            <Popover style={{ width: '43rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flag'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/2560px-Flag_of_Alabama.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Alabama.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/2560px-Flag_of_Alabama.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Alabama.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -113,10 +113,10 @@ const StateCards = () => {
                                         key={placement}
                                         placement={placement}
                                         overlay={
-                                            <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
+                                            <Popover style={{ width: '43rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flower'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://www.aces.edu/wp-content/uploads/2019/02/shutterstock_611375129-2.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Alabama is the Camellia.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://www.aces.edu/wp-content/uploads/2019/02/shutterstock_611375129-2.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Alabama is the Camellia.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
 
                                             </Popover>
@@ -137,10 +137,10 @@ const StateCards = () => {
                                         key={placement}
                                         placement={placement}
                                         overlay={
-                                            <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
+                                            <Popover style={{ width: '43rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Tree'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://mrdehnefourthgradeclassalabama.weebly.com/uploads/1/1/7/6/117631801/longleafpine1_orig.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Alabama is the Southern Longleaf Pine.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://mrdehnefourthgradeclassalabama.weebly.com/uploads/1/1/7/6/117631801/longleafpine1_orig.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Alabama is the Southern Longleaf Pine.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -159,10 +159,10 @@ const StateCards = () => {
                                         key={placement}
                                         placement={placement}
                                         overlay={
-                                            <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
+                                            <Popover style={{ width: '43rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Bird'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://statesymbolsusa.org/sites/statesymbolsusa.org/files/primary-images/NorthernFlickerMaleALbirdsymbol.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Alabama is the Yellowhammer.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://statesymbolsusa.org/sites/statesymbolsusa.org/files/primary-images/NorthernFlickerMaleALbirdsymbol.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Alabama is the Yellowhammer.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -214,7 +214,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flag'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/1920px-Flag_of_Alaska.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Alaska.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/1920px-Flag_of_Alaska.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Alaska.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -237,7 +237,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flower'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2017/08/fmt-division.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Alaska is the Forget-me-not.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2017/08/fmt-division.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Alaska is the Forget-me-not.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
 
                                             </Popover>
@@ -261,7 +261,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Tree'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://www.alaska.org/assets/content/cache/made/assets/content/advice/Alaska_Species_Guide/Tree%20Species/580_387_c1/Sitka_SpruceSitkaSpruce.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Alaska is the Sitka Spruce.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://www.alaska.org/assets/content/cache/made/assets/content/advice/Alaska_Species_Guide/Tree%20Species/580_387_c1/Sitka_SpruceSitkaSpruce.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Alaska is the Sitka Spruce.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -283,7 +283,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Bird'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Lagopus_lagopus_-_adult_%28Denali%2C_2010%29.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Alaska is the Willow Ptarmigan.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Lagopus_lagopus_-_adult_%28Denali%2C_2010%29.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Alaska is the Willow Ptarmigan.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -333,7 +333,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flag'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/1599px-Flag_of_Arizona.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Arizona.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/1599px-Flag_of_Arizona.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Arizona.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -356,7 +356,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flower'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://www.nps.gov/sagu/getinvolved/images/Photo-1-Saguaro-flowers-and-buds-T-Foley.jpg?maxwidth=1200&autorotate=false" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Arizona is the Saguaro Cactus.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://www.nps.gov/sagu/getinvolved/images/Photo-1-Saguaro-flowers-and-buds-T-Foley.jpg?maxwidth=1200&autorotate=false" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Arizona is the Saguaro Cactus.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
 
                                             </Popover>
@@ -380,7 +380,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Tree'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://cdn2.hubspot.net/hubfs/1546852/AAA%20Social%202019/palo%20verde%20landscape%20AZ.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Arizona is the Palo Verde.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://cdn2.hubspot.net/hubfs/1546852/AAA%20Social%202019/palo%20verde%20landscape%20AZ.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Arizona is the Palo Verde.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -402,7 +402,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Bird'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://cdn.mos.cms.futurecdn.net/Yuh2DryHnoVRB3ZsB2hxpk-1200-80.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Arizona is the Cactus Wren.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://cdn.mos.cms.futurecdn.net/Yuh2DryHnoVRB3ZsB2hxpk-1200-80.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Arizona is the Cactus Wren.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -447,7 +447,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flag'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/1200px-Flag_of_Arkansas.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Arkansas.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/1200px-Flag_of_Arkansas.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of Arkansas.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -470,7 +470,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flower'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Apple_blossom_02B.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Arkansas is the Apple Blossom.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Apple_blossom_02B.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state flower of Arkansas is the Apple Blossom.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
 
                                             </Popover>
@@ -494,7 +494,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Tree'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2015/04/white-pine.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Arkansas is the Pine.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2015/04/white-pine.jpg" style={{ width: '40rem', height: '28rem' }}></img> <h4 className="d-flex justify-content-center">The state tree of Arkansas is the Pine.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -516,7 +516,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Bird'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src="https://www.allaboutbirds.org/guide/assets/og/75712191-1200px.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Arkansas is the Mockingbird.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img alt="" src="https://www.allaboutbirds.org/guide/assets/og/75712191-1200px.jpg" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">The state bird of Arkansas is the Mockingbird.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }
@@ -562,7 +562,7 @@ const StateCards = () => {
                                             <Popover style={{ width: '200rem' }} id={`popover-positioned-${placement}`} >
                                                 <Popover.Title className="d-flex justify-content-center" style={{ width: '43rem' }} as="h3">{'State Flag'}</Popover.Title>
                                                 <Popover.Content style={{ width: '40rem' }}>
-                                                    <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/1200px-Flag_of_California.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of California.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
+                                                    <img  src=" https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/1200px-Flag_of_California.svg.png" style={{ width: '40rem', height: '28rem' }}></img><h4 className="d-flex justify-content-center">This is the state flag of California.</h4><p className="d-flex justify-content-center">(click the button again to close window)</p>
                                                 </Popover.Content>
                                             </Popover>
                                         }

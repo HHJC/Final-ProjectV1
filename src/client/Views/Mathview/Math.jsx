@@ -31,10 +31,12 @@ const MathProblems = () => {
   const [card11Val, setCard11Val] = useState(null);
   const [card12Val, setCard12Val] = useState(null);
 
-  //   const handleSubmit = () => {
-  //     if (card12Val === "4") {
+  //   const handleSubmit = (e) => {
+  //     if (card12Val === "
+  //       e.preventDefault()
   //       alert("CORRECT");
   //     } else {
+  //       e.preventDefault()
   //       alert("INCORRECT");
   //     }
   //   };
@@ -83,10 +85,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card1Val === "2") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -142,10 +146,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card2Val === "3") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -201,10 +207,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card3Val === "4") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -260,10 +268,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card4Val === "5") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -319,10 +329,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card5Val === "6") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -378,10 +390,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card6Val === "7") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -437,10 +451,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card7Val === "1") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -496,10 +512,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card8Val === "2") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -555,10 +573,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card9Val === "4") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -614,10 +634,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card10Val === "3") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -673,10 +695,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card11Val === "0") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
@@ -732,10 +756,12 @@ const MathProblems = () => {
               ></input>
               <input
                 type="submit"
-                onClick={function handleSubmit() {
+                onClick={function handleSubmit(e) {
                   if (card12Val === "4") {
+                    e.preventDefault()
                     alert("CORRECT");
                   } else {
+                    e.preventDefault()
                     alert("INCORRECT");
                   }
                 }}
