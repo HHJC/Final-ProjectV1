@@ -9,6 +9,7 @@ import {
   Col,
 } from "react-bootstrap";
 
+
 //jumbotron needs filled, buttons need centered, weird br thing route from cupcake needs taken off, delete unddeded recipe.md
 
 const RecipeVideos = () => {
@@ -54,28 +55,28 @@ const RecipeVideos = () => {
             </Card.Body>
           </Card>
 
-          <Modal
+          <Modal 
             size="md"
             show={mdShow1}
             onHide={() => setmdShow1(false)}
             aria-labelledby="example-modal-sizes-title-md"
           >
             <Modal.Header closeButton>
-              <Modal.Title>in & ing</Modal.Title>
+              <Modal.Title> Ingredients & Instructions </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              Scrambled eggs
-              <hr />
+             <h3>Scrambled eggs</h3> 
+             
               Take 3 eggs, 2 tbsp of milk combine and wisk stove to light heat
               pour eggs onto pan scramble eggs
               <hr />
-              2 Ingredient Banana Pancakes
-              <hr />
+              <h3>2 Ingredient Banana Pancakes</h3>
+              
               Take 1 banana and mash into a bowl with 2 eggs. Wisk and scoop
               into a hot pan. Flip when ready, enjoy!
               <hr />
-              Semi-Homemade Sticky Buns
-              <hr />
+              <h3>Semi-Homemade Sticky Buns</h3>
+            
               Take a muffin tin, place 1 slice of butter, 1 tbsp of brown sugar
               and a handful of chopped pecans in each tin. Add 1 biscuit from a
               can of niscuits into each tin, press firmly. Bake at 350 degrees
@@ -116,25 +117,22 @@ const RecipeVideos = () => {
             aria-labelledby="example-modal-sizes-title-md"
           >
             <Modal.Header closeButton>
-              <Modal.Title>in & ing</Modal.Title>
+              <Modal.Title>Ingredients & Instructions</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                     <h3>Sugar Cookie Pizza</h3>
-                    <hr />
+                   
                     ½ cup unsalted butter, 1 stick, softened 1 ½ teaspoons
                     vanilla extract, divided ½ cup granulated sugar 3
                     tablespoons light brown sugar 1 large egg, room temperature
                     1 ½ cups all-purpose flour 1 teaspoon cream of tartar ½
                     teaspoon baking soda 1 pinch salt 6 oz cream cheese, room
                     temperature ⅓ cup powdered sugar ⅓ cup chocolate hazelnut
-                    spread OPTIONAL TOPPINGS
-                    <hr />
+                    spread optional toppings:
                     1 cup fresh berries peanut butter mini pretzel ½ cup fruit
                     cereal
-                    <hr />
-                    Preparation
-                    <hr />
-                    Preheat the oven to 350˚F (180˚C). Line a 10-inch (25-cm)
+                    <h5>Preparation</h5>
+          Preheat the oven to 350˚F (180˚C). Line a 10-inch (25-cm)
                     cast iron pan with parchment paper. In a large bowl, mix the
                     butter with 1 teaspoon of vanilla extract until light and
                     fluffy. Add the granulated sugar, then the brown sugar, and
@@ -152,15 +150,15 @@ const RecipeVideos = () => {
                     quarters with the chocolate hazelnut spread. Decorate with
                     your favorite toppings. Enjoy!
                     <hr />
-                    Cheesy Taco Breadsticks
-                    <hr />
+                   <h3>Cheesy Taco Breadsticks</h3> 
+                    
                     1 small onion, diced 1 tablespoon garlic, minced 1 lb ground
                     beef 2 tablespoons taco seasoning 1 lb pizza dough, rolled
                     out into a rectangle 1 cup mexican cheese blend 1 tablespoon
                     olive oil salsa, for dipping guacamole, for dipping
-                    <hr />
-                    Preparation
-                    <hr />
+                   
+                    <h5>Preparation</h5>
+                    
                     Sauté onions and garlic until transparent. Add the ground
                     beef and taco seasoning. Cook until browned. Remove from
                     heat and set aside. Preheat oven to 425˚F (220˚C). On a
@@ -174,14 +172,14 @@ const RecipeVideos = () => {
                     more cheese. Bake for another 5 minutes or until the cheese
                     is golden brown. Enjoy!
                     <hr />
-                    Aquarium Cookies
-                    <hr />
+                   <h3>Aquarium Cookies</h3> 
+                  
                     4 oz unsalted butter, softened ½ cup sugar 1 egg 2 cups
                     flour 20 pieces hard candy sprinkle, to taste ¼ cup white
                     chocolate, melted
-                    <hr />
-                    Preparation
-                    <hr />
+                    
+                   <h5>Preparation</h5> 
+                    
                     In a medium bowl, mix softened butter and sugar until
                     smooth. Add the egg and stir well to combine. Sift in the
                     flour and fold until fully incorporated. Cover the dough
@@ -202,14 +200,14 @@ const RecipeVideos = () => {
                     chocolate around the rims. Immediately sandwich the 2
                     cookies and set in fridge for 15 minutes. Enjoy!
                     <hr />
-                    Animal Pancakes
-                    <hr />
+                    <h3>Animal Pancakes</h3>
+                   
                     6 cups pancake mix, prepared strawberry, for decoration
                     blueberry, for decoration banana, for decoration chocolate
                     chip, for decoration maple syrup, to top, optional
-                    <hr />
-                    Preparation
-                    <hr />
+                   
+                    <h5>Preparation</h5>
+                   
                     pare pancake mix per box instructions. Heat a nonstick pan
                     or pancake griddle on medium heat. For large pancakes, pour
                     1 cup (235 ml) of batter onto the pan. For small pancakes,
@@ -221,15 +219,14 @@ const RecipeVideos = () => {
                     other side for 2-3 minutes, or until the bottom is lightly
                     browned.
                     <hr />
-                    Hidden Vegetable Macaroni and Cheese
-                    <hr />
+                    <h3>Hidden Vegetable Macaroni and Cheese</h3>
+                   
                     1 lb elbow macaroni, cooked al dente ½ cup water 1 cup
                     cauliflower florets 1 cup butternut squash, diced 1 cup
                     carrot, sliced 2 cups milk 2 cups cheddar cheese, shredded 4
                     oz cream cheese
-                    <hr />
-                    Preparation
-                    <hr />
+                  <h5>Preparation</h5>
+                    
                     Add water, cauliflower, squash, and carrots in a pot over
                     medium heat. Cover and cook until vegetables are tender. Add
                     everything into a blender, including cooking water, and
@@ -237,16 +234,15 @@ const RecipeVideos = () => {
                     medium heat, and add the milk, cheese, and cream cheese.
                     Stir until smooth. Add macaroni, reduce heat, mix
                     thoroughly, and cover for 20 minutes. Enjoy!
-                    <hr />
-                    Super Soft Banana Bread Cookies
-                    <hr />
+                    <hr/>
+                    <h3>Super Soft Banana Bread Cookies</h3>
+                   
                     ½ cup sugar ¼ cup brown sugar 1 teaspoon vanilla extract ½
                     cup butter, softened ½ cup greek yogurt 1 egg 2 ripe bananas
                     2 ½ cups flour ½ teaspoon baking powder ½ teaspoon baking
                     soda 1 pinch salt 2 teaspoons cinnamon ½ cup chocolate chips
-                    <hr />
-                    Preparation
-                    <hr />
+                   <h5>  Preparation</h5>
+                  
                     Preheat oven to 350˚F (180˚C). In a bowl, whisk sugar, brown
                     sugar, vanilla extract, and butter together until creamy.
                     Add Greek yogurt, egg, and bananas. Mash bananas and mix
@@ -256,23 +252,18 @@ const RecipeVideos = () => {
                     paper and place spoonfuls of dough 2 inches (5 cm) apart.
                     SCROLL FOR MORE CONTENT Bake for 15 minutes and cool on a
                     cooling rack. Enjoy!
-                    <hr />
-                    Unicorn Cheesecake
-                    <hr />
-                    FILLING 48 oz cream cheese 1 cup sugar 2 tablespoons vanilla
+                    <hr/>
+                    <h3>Unicorn Cheesecake</h3>
+                   
+                    Filling: 48 oz cream cheese 1 cup sugar 2 tablespoons vanilla
                     extract 2 cups milk 2 tablespoons gelatin food coloring,
                     blue, purple, and pink
-                    <hr />
-                    CRUST 20 graham crackers 4 tablespoons unsalted butter ⅓ cup
-                    sugar
-                    <hr />
-                    UNICORN HORNS: 9 mini waffle cones 2 cups white chocolate,
+                   Crust: 20 graham crackers 4 tablespoons unsalted butter ⅓ cup
+                    Unicorn Horns: 9 mini waffle cones 2 cups white chocolate,
                     melted sprinkle, pink and blue
-                    <hr />
-                    FOR GARNISH: sprinkle gumball swirl lollipop
-                    <hr />
-                    Preparation
-                    <hr />
+                    Garnish: sprinkle gumball swirl lollipop
+                   <h3>Preparation</h3>
+                    
                     Make the filling: In a large bowl, use an electric hand
                     mixer to combine the cream cheese, sugar, and vanilla.
                     Microwave the milk for 2 minutes and mix with the gelatin.
@@ -326,41 +317,39 @@ const RecipeVideos = () => {
             aria-labelledby="example-modal-sizes-title-md"
           >
             <Modal.Header closeButton>
-              <Modal.Title>in & ing</Modal.Title>
+              <Modal.Title>Ingredients & Instructions</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                    Brown Paper popcorn
-                    <br />
-                    1/3 cup of popcorn 1 paper bag
-                    <br />
-                    Preparation
-                    <br />
+                    <h3>Brown Paper popcorn</h3>
+                    
+                    <h5>Preparation</h5>
+                   
                     Microwave 1/3 cup popcorn in a brown paper bag (folding down
                     the corners of the bag so it doesn't open) for about 2.5
                     minutes. When popping slows down, remove. Be sure to monitor
                     so nothing burns.
-                    <br />
-                    Pop tarts
-                    <br />
+                    <hr />
+                    <h3>Pop tarts</h3>
+                   <h5>Preparation</h5>
                     Unroll a can of crescent rolls, keeping them as rectangles.
                     Pinch the seems closed. Spoon about 1 tablespoon jam in the
                     center of rectangle, leaving about 1/4 inch empty along the
                     edges. Place another rectangle on top and crimp edges with a
                     fork. Bake at 425 for about 8-10 minutes.
-                    <br />
-                    Fruit Dip
-                    <br />
+                    <hr />
+                   <h3>Fruit Dip</h3> 
+                    <h5>Preparation</h5>
                     Mix ¼ cup greek yogurt, ¼ cup almond butter, 1 tbsp honey, ¼
                     tsp cinnamon, ¼ tsp vanilla in a small bowl. Dip
                     strawberries and apples!
-                    <br />
-                    Hummus Cocktail
-                    <br />
+                    <hr />
+                    <h3> Hummus Cocktail</h3>
+                   <h5>Preparation</h5>
                     Scoop hummus into plastic cup. Optional Vegetables -
                     Carrots, Bell Pepper, Cucumber etc
-                    <br />
-                    Mug Cake
-                    <br />
+                    <hr />
+                    <h3>Mug Cake</h3>
+                    <h5>Preparation</h5>
                     Mix 1 tbsp cocoa powder, 3 tbsp flour, 1/8 tsp salt, 1/4 tsp
                     baking powder, 1 tbsp sugar, 3 tsp coconut or vegetable oil,
                     3 tbsp milk, 1/2 tsp pure vanilla extract and 1 tbsp
@@ -408,17 +397,14 @@ const RecipeVideos = () => {
             aria-labelledby="example-modal-sizes-title-md"
           >
             <Modal.Header closeButton>
-              <Modal.Title>in & ing</Modal.Title>
+              <Modal.Title>Ingredients & Instructions</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                    Two Ingredient Chocolate Cake
-                    <hr />
-                    4 eggs, whites and yolks separated 9 oz semi sweet chocolate
+                   <h3>Two Ingredient Chocolate Cake</h3>  
+                   <h5>Preparation</h5>
+                   4 eggs, whites and yolks separated 9 oz semi sweet chocolate
                     powdered sugar, to serve vanilla ice cream, to serve
                     seasonal fruit, to serve
-                    <hr />
-                    Preparation
-                    <hr />
                     Heat the oven to 325˚F (170˚C). Place the chocolate in a
                     microwave-safe bowl and melt completely, about 1 minute.
                     Separate the egg yolks and egg whites. Using a hand mixer,
@@ -432,12 +418,9 @@ const RecipeVideos = () => {
                     plate. Optional: Sprinkle with powdered sugar, slice and
                     serve top with ice cream. Serve with seasonal fruit. Enjoy!
                     <hr />
-                    Two Ingredient Strawberry Sorbet
-                    <hr />
-                    1 lb strawberry ¼ cup honey
-                    <hr />
-                    Preparation
-                    <hr />
+                  <h3>Two Ingredient Strawberry Sorbet</h3>  
+                    <h5>Preparation</h5>
+                     1 lb strawberry ¼ cup honey
                     Hull the strawberries by using a straw to push out the stem
                     of each strawberry. Cut strawberries in half and place on a
                     parchment paper-lined baking sheet and freeze until
@@ -445,12 +428,9 @@ const RecipeVideos = () => {
                     processor and combine until evenly mixed. Transfer to a loaf
                     pan and transfer to freezer until completely frozen. Enjoy!
                     <hr />
-                    Two ingredient Pasta
-                    <hr />
+                    <h3>Two ingredient Pasta</h3>
+                    <h5>Preparation</h5>
                     1 cup shredded mozzarella cheese 1 egg yolk
-                    <hr />
-                    Preparation
-                    <hr />
                     Add the mozzarella to a bowl and microwave for 1-2 minutes,
                     until melted. Allow the mozzarella to cool for 30 seconds.
                     With a spatula, gently fold the egg yolk into the cheese.
@@ -463,11 +443,10 @@ const RecipeVideos = () => {
                     minute. Drain into a colander and run cool water over the
                     pasta to prevent sticking. Serve with your favorite sauce
                     and toppings. Enjoy!
-                    <br />
-                    Two Ingredient flatbread
-                    <br />
-                    Preparation
-                    <br />
+                    <hr />
+                   <h3>Two Ingredient flatbread</h3> 
+                   <h5>Preparation</h5>
+                    
                     1 cup whole fat greek yogurt 1 cup self-rising flour, plus
                     more for dusting In a large bowl, mix together yogurt and
                     flour until it forms a smooth dough. Transfer the dough to a
@@ -476,12 +455,12 @@ const RecipeVideos = () => {
                     plenty of flour to prevent sticking or tearing. Cook the
                     bread in a dry pan over medium-high heat for 2-4 minutes per
                     side, until golden brown and cooked through. Enjoy! Two
-                    Ingredient Chocolate Souffle
-                    <br />
-                    ½ cup chocolate hazelnut spread 2 eggs
-                    <br />
-                    Preparation
-                    <br />
+                    <hr/>
+                   <h3> 2Ingredient Chocolate Souffle</h3> 
+                    
+                   
+                    <h5>Preparation</h5>
+                     ½ cup chocolate hazelnut spread 2 eggs
                     Preheat the oven to 375˚F (190˚C). Separate the egg yolks
                     from the egg whites and place into two bowls. Mix the
                     chocolate hazelnut spread into the bowl with the egg yolks.
@@ -531,17 +510,16 @@ const RecipeVideos = () => {
             aria-labelledby="example-modal-sizes-title-md"
           >
             <Modal.Header closeButton>
-              <Modal.Title>in & ing</Modal.Title>
+              <Modal.Title>Ingredients & Instructions</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                    Yummy Fluffy Vanilla Cupcakes
-                    <br />
+                    <h3>Yummy Fluffy Vanilla Cupcakes</h3>
+                   
                     self raising flour 200 grams (7/8th of a cup) 200 grams of
                     castor sugar(7/8th of a cup) 200 grams of unsalted butter-
                     room temp(7/8th of a cup) 4 eggs vanilla extract 1 tsp
-                    <br />
-                    Preparation
-                    <br />
+                    <h5>Preparation</h5>
+                    
                     Pour Castor sugar in large mixing bowl first, then add
                     unsalted butter into the bowl. Mix for 60 seconds at high
                     speed. sift the 200 grams (7/8th of a cup) of self-rasing
@@ -586,20 +564,14 @@ const RecipeVideos = () => {
             aria-labelledby="example-modal-sizes-title-md"
           >
             <Modal.Header closeButton>
-              <Modal.Title>in & ing</Modal.Title>
+              <Modal.Title>Instructions & Ingredients</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                    Ice Cream Sandwich Cake Whipped Cream
-                    <br />
-                    2 cups (or one container) whipping cream 3 tablespoons
+                    <h3>Ice Cream Sandwich Cake Whipped Cream</h3>2 cups (or one container) whipping cream 3 tablespoons
                     powdered sugar approximately 3 teaspoons vanilla Cake
-                    <br />
-                    12 ice cream sandwiches 12 oz container cool whip or
+                    <h5>Preparation</h5>
+                   12 ice cream sandwiches 12 oz container cool whip or
                     homemade whipped cream M&Ms (or chocolate candy of choice)
-                    Fudge topping
-                    <br />
-                    Preparation
-                    <br />
                     In an electric mixer with a whisk attachment (or large bowl
                     with hand mixer) add whipping cream and vanilla, mix
                     starting on low and move it to a medium-high speed until you
@@ -611,16 +583,14 @@ const RecipeVideos = () => {
                     microwave for about 20 seconds if not drizzling well).
                     Repeat for 2 more layers Freeze for about 3 hours (or as
                     long as you can wait!)
-                    <br />
-                    Semi Homemade Cannoli:
-                    <br />
-                    - 2 cups Ricotta (one 16 oz container (full fat) - 1/3 cup
+                    <hr />
+                    <h3>Semi Homemade Cannoli</h3>
+                   2 cups Ricotta (one 16 oz container (full fat) - 1/3 cup
                     plus 2 tablespoons powdered sugar - 1/4 cup whipped cream
                     (left over from ice cream sandwich recipe) - 1/2 teaspoon
                     cinnamon
-                    <br />
-                    Preparation
-                    <br />
+                    <h5>Preparation</h5>
+                    
                     Whisk ricotta. Add in powdered sugar and whisk. Add cinnamon
                     and continue to whisk Fold in whipped cream with a spatula
                     Add chocolate chips Fill piping bag with mixture using a
@@ -628,15 +598,13 @@ const RecipeVideos = () => {
                     edge. Sprinkle chocolate chips on top and serve NOTE: Best
                     to assemble right before serving, or you can refrigerate for
                     15 min, but any longer and the cones will get soggy.
-                    <br />
-                    Raspberry Mousse:
-                    <br />
+                    <h3> Raspberry Mousse</h3>
+                   
                     *amounts are all to taste* - Unsweetened greek yogurt (5%) -
                     about 2 tsp Honey (or maple syrup) - Lime - frozen
                     raspberries - Mini chocolate chips
-                    <br />
-                    Preparation
-                    <br />
+                    <h5>Preparation</h5>
+                    
                     Mix honey into yogurt Squeeze lime and stir. Stir in frozen
                     raspberries, smushing them to release their juices. Mix in
                     chocolate chips. Freeze for 30 minutes. Stir. Freeze again

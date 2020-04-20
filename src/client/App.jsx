@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/Navbar";
 import User from "./components/User";
-import Recipes from "./components/Recipes";
+import About from "./components/About";
 import StoryBooks from "./Views/StoryBookView/StoryBooks";
 import RecipeVideos from "./Views/RecipeVideos";
 import Space from "./Views/Space/Space";
@@ -72,9 +72,14 @@ class App extends React.Component {
           <Route exact path="/Views/RecipeVideos">
             <RecipeVideos />
           </Route>
+<<<<<<< HEAD
+          <Route exact path="/About">
+            <About />
+=======
 
           <Route exact path="/Recipes">
             <Recipes />
+>>>>>>> 4f357c035cc6f97892e1e9bcf05ca3b7ecfae8b9
           </Route>
 
           <Route exact path="/Animals">
