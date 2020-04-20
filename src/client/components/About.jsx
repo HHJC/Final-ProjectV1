@@ -6,12 +6,10 @@ import {Container,Jumbotron,Card,} from "react-bootstrap";
 const About = () => {
 return (
     <Container>
-<Jumbotron fluid className="main row d-flex justify-content-center m-auto p-auto" style={{ backgroundColor: "#FFC107", width: '30rem' , height:'10rem'}}>
+<Jumbotron fluid className="main row d-flex justify-content-center m-auto p-auto vertical-center" style={{ backgroundColor: "#FFC107", width: '30rem' , height:'5rem'}}>
   <Container>
-    <h1 className="text-center">About Learn and Play</h1>
-    <h5 className="text-center">
-    A place your child can come to enrich their mind
-    </h5>
+    <h1 className="text-center">About Learn & Play</h1>
+    
   </Container>
 </Jumbotron>
 

@@ -17,10 +17,10 @@ const NavBar = () => {
     return (
         
         <Navbar bg="info" variant="light" sticky="top" className="">
-        <Nav className="mr-auto">
-        <Button onClick={() => history.push("/")} className="btn-md btn-warning mx-1"><FaHome className="m-1 d-flex justify-content-center m-auto"/> Home</Button>
-        <Button onClick={() => history.push("/Recipes")} className="btn-md btn-warning mx-1"><GiShinyApple className="m-1 d-flex justify-content-center m-auto"/> About Me</Button>
-        <Button onClick={() => history.goBack()} className="btn-md btn-warning mx-1"><IoMdArrowRoundBack className="m-1 d-flex justify-content-center m-auto"/> Go Back</Button>
+        <Nav className="mr-auto ">
+        <Button onClick={() => history.push("/")} className="btn-md btn-warning mx-1 justify-content-end "><FaHome className="m-1 d-flex justify-content-center m-auto"/> Home</Button>
+        <Button onClick={() => history.push("/Recipes")} className="btn-md btn-warning mx-1 "><GiShinyApple className="m-1 d-flex justify-content-center m-auto"/> About Me</Button>
+        <Button onClick={() => history.goBack()} className="btn-md btn-warning mx-1 justify-content-end"><IoMdArrowRoundBack className="m-1 d-flex justify-content-center m-auto"/> Go Back</Button>
         </Nav>
         <Navbar.Brand href="#home" cl><h2>Learn & Play</h2></Navbar.Brand>
         </Navbar>
