@@ -55,24 +55,18 @@ const GeographyHome = () => {
         </Card.Body>
       </Card>
 
-      <Card className="m-3 mt-5 shadow border" style={{ width: "18rem" }}>
-        <Card.Img
-          variant="top"
-          src="https://thumbs.dreamstime.com/b/happy-cute-kids-play-solve-puzzle-together-happy-cute-kids-play-solve-puzzle-together-activity-background-boy-brain-cartoon-160886054.jpg"
-          style={{ height: "14rem" }}
-        />
-        <Card.Body>
-          <Card.Title>United States Map Puzzle</Card.Title>
-          <Card.Text>An interactive puzzle of the United States.</Card.Text>
-          <Button
-            onClick={() => history.push("./Views/Geography/Puzzle")}
-            className="btn btn-primary m-auto d-flex"
-          >
-            <GiPuzzle className="m-1 d-flex align-bottom" /> Interactive Puzzle
-          </Button>
-        </Card.Body>
-      </Card>
-    </Container>
+<Card className="m-3 mt-5 shadow border" style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/happy-cute-kids-play-solve-puzzle-together-happy-cute-kids-play-solve-puzzle-together-activity-background-boy-brain-cartoon-160886054.jpg" style={{ height: '14rem' }}  />
+  <Card.Body>
+    <Card.Title>United States Map Puzzle</Card.Title>
+    <Card.Text>
+      An interactive puzzle of the United States.
+    </Card.Text>
+    <Button onClick={()=>history.push('./Views/Geography/Puzzle')} className="btn btn-primary m-auto d-flex"><GiPuzzle className="m-1 d-flex align-bottom"/> Interactive Puzzle</Button>
+  </Card.Body>
+</Card>
+       
+</Container>
   );
 };
 
