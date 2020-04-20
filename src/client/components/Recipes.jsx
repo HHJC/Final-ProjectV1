@@ -1,116 +1,52 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
-import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
-import Container from "react-bootstrap/Container";
-import ListGroup from "react-bootstrap/ListGroup";
-import ListGroupItem from "react-bootstrap/ListGroupItem";
-import Button from "react-bootstrap/Button";
 
-const Recipes = () => {
-  const history = useHistory();
+import {Container,Jumbotron,Card,} from "react-bootstrap";
 
-  return (
+
+const About = () => {
+return (
     <Container>
-      <CardDeck>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <Button
-              onClick={() => history.push("./Views/RecipeVideos")}
-              variant="warning"
-              className="btn mx-1"
-            >
-              Back To Video
-            </Button>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <Button
-              onClick={() => history.push("./Views/RecipeVideos")}
-              variant="outline-warning"
-              className="btn mx-1"
-            >
-              Back To Video
-            </Button>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <Button
-              onClick={() => history.push("./Views/RecipeVideos")}
-              className="btn btn-warning mx-1"
-            >
-              Back To Video
-            </Button>
-          </Card.Footer>
-        </Card>
-      </CardDeck>
+<Jumbotron fluid className="main row d-flex justify-content-center m-auto p-auto" style={{ backgroundColor: "#FFC107", width: '30rem' , height:'10rem'}}>
+  <Container>
+    <h1 className="text-center">About Learn and Play</h1>
+    <h5 className="text-center">
+    A place your child can come to enrich their mind
+    </h5>
+  </Container>
+</Jumbotron>
 
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-        <ListGroup className="list-group-flush">
-          <ListGroupItem>Cras justo odio</ListGroupItem>
-          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-          <ListGroupItem>Vestibulum at eros</ListGroupItem>
-        </ListGroup>
-        <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
-      </Card>
+<div className="text-center" >
+  <Card className="main row d-flex justify-content-center m-auto p-auto" style={{ width: '30rem' }}>
+  
+ <Card.Body>
+    <Card.Title>
 
-      <Card>
-        <Card.Header>Featured</Card.Header>
-        <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
-          <Card.Text>
-            With supporting text below as a natural lead-in to additional
-            content.
-          </Card.Text>
-          <Button
-            onClick={() => history.push("./Views/RecipeVideos")}
-            className="btn btn-warning mx-1"
-          >
-            Back To Video
-          </Button>
-        </Card.Body>
-      </Card>
+    </Card.Title>
+    <Card.Text>
+   <h5>
+  As there are parents in our development team, we know how hard it can be to make sure our kids are getting the enrichment they need
+  to succeed in school. With the current pandemic, many children will struggle with getting the educational stimulation they need from home.
+  We developed Learn and Play to be a tool parents could use to bridge that gap. All of our lessons have been currated by parents. We look forward to building a relationship with our audience so that we can bring many new features 
+  to our program, so that we can further serve your family. 
+
+
+   </h5>
+    </Card.Text>
+     </Card.Body>
+     <div class="card-footer text-muted text-center">
+      
+    Contact Us  <br/>
+    Email Address: Team@learnandplay.com
+  </div>
+</Card>
+</div>
+
+
+
+
+
     </Container>
   );
 };
 
-export default Recipes;
+export default About;
