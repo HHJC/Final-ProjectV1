@@ -19,9 +19,9 @@ const NavBar = () => {
         <Navbar bg="info" variant="light">
         <Navbar.Brand href="#home">Learn & Play</Navbar.Brand>
         <Nav className="mr-auto ">
-        <Button onClick={() => history.push("/")} className="btn-lg btn-warning mx-1 "><FaHome/></Button>
-        <Button onClick={() => history.goBack()} className="btn-lg btn-warning mx-1 "><IoMdArrowRoundBack/></Button>
-        <Button onClick={() => history.push("/Recipes")} className="btn-lg btn-warning mx-1 "><GiCupcake/></Button>
+        <Button onClick={() => history.push("/")} className="btn-md btn-warning mx-1 "><FaHome className="m-1 d-flex justify-content-center m-auto"/> Home</Button>
+        <Button onClick={() => history.push("/Recipes")} className="btn-md btn-warning mx-1 "><GiCupcake className="m-1 d-flex justify-content-center m-auto"/> Recipes</Button>
+        <Button onClick={() => history.goBack()} className="btn-md btn-warning mx-1 "><IoMdArrowRoundBack className="m-1 d-flex justify-content-center m-auto"/> Go Back</Button>
         </Nav>
         </Navbar>
     
