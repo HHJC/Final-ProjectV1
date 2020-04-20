@@ -19,7 +19,7 @@ const Continents = () => {
       >
         <Card.Img
           variant="top"
-          src="https://cdn.britannica.com/59/89959-004-732AD68F.gif"
+          src="https://i.pinimg.com/originals/ff/60/41/ff604198955d6177539607b0edaf6ef2.gif"
         />
         <Card.Body>
           <Card.Title>

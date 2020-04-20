@@ -67,7 +67,7 @@ const StateCards = () => {
             <Card className="m-3 mt-5 shadow border" style={{ width: '20rem' }}>
                 <Card.Img variant="top" src="https://images.vexels.com/media/users/3/147675/isolated/preview/3db339fd0ae12cb494ef2c41249c0c28-alabama-state-plain-map-by-vexels.png" />
                 <Card.Body className="d-flex justify-content-center">
-                    <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setmdShowAL(true)}>State flag & facts</Button>
+                    <Button className="btn btn-warning mx-1 mt-auto" onClick={() => setmdShowAL(true)}>State flag & facts</Button>
                 </Card.Body>
             </Card>
             <Modal className='d-flex justify-content-center'
@@ -185,7 +185,7 @@ const StateCards = () => {
             <Card className="m-3 mt-5 shadow border" style={{ width: '20rem' }}>
                 <Card.Img variant="top" src="https://images.vexels.com/media/users/3/147677/isolated/preview/94de1721666d0ff4f6445ac0dd11d764-alaska-state-plain-map-by-vexels.png" />
                 <Card.Body className="d-flex justify-content-center">
-                    <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setmdShowAK(true)}>State flag & facts</Button>
+                    <Button className="btn btn-warning mx-1 mt-auto" onClick={() => setmdShowAK(true)}>State flag & facts</Button>
                 </Card.Body>
             </Card>
             <Modal className='d-flex justify-content-center'
@@ -304,7 +304,7 @@ const StateCards = () => {
             <Card className="m-3 mt-5 shadow border" style={{ width: '20rem' }}>
                 <Card.Img variant="top" src=" https://images.vexels.com/media/users/3/147680/isolated/preview/cc9969a4d2a3ee79d59317cb9351a47d-arizona-state-plain-map-by-vexels.png" />
                 <Card.Body className="d-flex justify-content-center">
-                    <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setmdShowAZ(true)}>State flag & facts</Button>
+                    <Button className="btn btn-warning mx-1 mt-auto" onClick={() => setmdShowAZ(true)}>State flag & facts</Button>
                 </Card.Body>
             </Card>
             <Modal className='d-flex justify-content-center'
@@ -422,7 +422,7 @@ const StateCards = () => {
             <Card className="m-3 mt-5 shadow border" style={{ width: '20rem' }}>
                 <Card.Img variant="top" src=" https://images.vexels.com/media/users/3/147682/isolated/preview/1b5e92d1fb0706466541c0372ed49c26-arkansas-state-plain-map-by-vexels.png" />
                 <Card.Body className="d-flex justify-content-center">
-                    <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setmdShowAR(true)}>State flag & facts</Button>
+                    <Button className="btn btn-warning mx-1 mt-auto" onClick={() => setmdShowAR(true)}>State flag & facts</Button>
                 </Card.Body>
             </Card>
             <Modal className='d-flex justify-content-center'
@@ -2396,7 +2396,7 @@ const StateCards = () => {
             <Card className="m-3 mt-5 shadow border" style={{ width: '20rem' }}>
                 <Card.Img variant="top" src="https://images.vexels.com/media/users/3/147843/isolated/preview/cacc49bbbc348eae7c5d81845c5a9ade-massachusetts-state-plain-map-by-vexels.png" />
                 <Card.Body className="d-flex justify-content-center">
-                    <Button className="btn btn-danger mx-1 mt-auto" onClick={() => setmdShowMA(true)}>State flag & facts</Button>
+                    <Button className="btn btn-warning mx-1 mt-auto" onClick={() => setmdShowMA(true)}>State flag & facts</Button>
                 </Card.Body>
             </Card>
             <Modal className='d-flex justify-content-center'
