@@ -1,23 +1,27 @@
 import React from "react";
-
+import  {GiGiftOfKnowledge}  from "react-icons/gi";
+import  {GiAnarchy}  from "react-icons/gi";
+import  {GiOwl}  from "react-icons/gi";
+import  {GiByzantinTemple}  from "react-icons/gi";
+import  {FaHatWizard}  from "react-icons/fa";
 import {Container,Jumbotron,Card,} from "react-bootstrap";
 
 
 const About = () => {
 return (
     <Container>
-<Jumbotron fluid className="main row d-flex justify-content-center m-auto p-auto vertical-center" style={{ backgroundColor: "#FFC107", width: '30rem' , height:'5rem'}}>
-  <Container>
-    <h1 className="text-center">About Learn & Play</h1>
-    
-  </Container>
-</Jumbotron>
 
 <div className="text-center" >
-  <Card className="main row d-flex justify-content-center m-auto p-auto" style={{ width: '30rem' }}>
+  <Card className="main row d-flex justify-content-center m-auto p-auto" style={{ width: '70rem',  height:'45rem' }}>
   
  <Card.Body>
     <Card.Title>
+<Jumbotron fluid className="main row d-flex justify-content-center m-auto p-auto vertical-center" style={{ backgroundColor: "#FFC107", width: '60rem' , height:'10rem'}}>
+  <Container>
+    <h1 className="text-center">About <GiGiftOfKnowledge/> <GiOwl/> <GiAnarchy/> <GiByzantinTemple/> <FaHatWizard/>Mim</h1>
+    
+  </Container>
+</Jumbotron>
 
     </Card.Title>
     <Card.Text>

@@ -72,14 +72,8 @@ class App extends React.Component {
           <Route exact path="/Views/RecipeVideos">
             <RecipeVideos />
           </Route>
-<<<<<<< HEAD
           <Route exact path="/About">
             <About />
-=======
-
-          <Route exact path="/Recipes">
-            <Recipes />
->>>>>>> 4f357c035cc6f97892e1e9bcf05ca3b7ecfae8b9
           </Route>
 
           <Route exact path="/Animals">
