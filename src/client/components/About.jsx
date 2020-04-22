@@ -1,18 +1,19 @@
 import React from "react";
-import  {GiGiftOfKnowledge}  from "react-icons/gi";
-import  {GiAnarchy}  from "react-icons/gi";
-import  {GiOwl}  from "react-icons/gi";
-import  {GiByzantinTemple}  from "react-icons/gi";
-import  {FaHatWizard}  from "react-icons/fa";
+// import  {GiGiftOfKnowledge}  from "react-icons/gi";
+// import  {GiAnarchy}  from "react-icons/gi";
+// import  {GiOwl}  from "react-icons/gi";
+// import  {GiByzantinTemple}  from "react-icons/gi";
+// import  {FaHatWizard}  from "react-icons/fa";
 import {Container,Jumbotron,Card,} from "react-bootstrap";
-
+import { GiLightBulb } from "react-icons/gi";
+import { MdEmail } from "react-icons/md";
 
 const About = () => {
 return (
     <Container>
 <Jumbotron fluid className="main row d-flex justify-content-center mt-3 m-auto p-auto vertical-center" style={{ width: '50rem' , height:'5rem'}}>
   <Container>
-    <h2 className="text-center d-flex justify-content-center">About Learn & Play</h2>
+    <h2 className="text-center d-flex justify-content-center">About <h1 style={{ color: 'black'}}><GiLightBulb className="ml-2 mr-0"/> MIM</h1></h2>
     
   </Container>
 </Jumbotron>
@@ -38,7 +39,7 @@ return (
      <div class="card-footer text-muted text-center">
       
     Contact Us  <br/>
-    Email Address: Team@learnandplay.com
+    <MdEmail /> Team@MIMknowledge.com
   </div>
 </Card>
 </div>
