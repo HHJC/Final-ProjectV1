@@ -26,10 +26,10 @@ return (
 
     </Card.Title>
     <Card.Text>
-   <p className="p-5">
+   <p className="p-5"> 
   As there are parents in our development team, we know how hard it can be to make sure our kids are getting the enrichment they need
   to succeed in school. With the current pandemic, many children will struggle with getting the educational stimulation they need from home.
-  We developed Learn and Play to be a tool parents could use to bridge that gap. All of our lessons have been currated by parents. We look forward to building a relationship with our audience so that we can bring many new features 
+  We developed MIM to be a tool parents could use to bridge that gap. All of our lessons have been currated by parents. We look forward to building a relationship with our audience so that we can bring many new features 
   to our program, so that we can further serve your family. 
 
 
