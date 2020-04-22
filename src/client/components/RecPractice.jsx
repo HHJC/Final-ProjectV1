@@ -7,7 +7,7 @@ class RecPractice extends React.Component {
       <Container className="d-flex flex-column">
         <>
           <Jumbotron fluid>
-            <h1>Check out these recipes!</h1>
+            <h2>Check out these recipes!</h2>
           </Jumbotron>
         </>
         <>

@@ -22,9 +22,9 @@ const RecipeVideos = () => {
   return (
     <Container className="d-flex flex-column">
       <div>
-        <Jumbotron fluid style={{ backgroundColor: "#FFC107" }}>
+        <Jumbotron fluid>
           <Container fluid>
-            <h1 className="text-center">Let's Get Cooking!</h1>
+            <h2 className="text-center">Let's Get Cooking!</h2>
           </Container>
         </Jumbotron>
       </div>
