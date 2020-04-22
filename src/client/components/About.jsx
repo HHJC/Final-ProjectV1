@@ -22,23 +22,17 @@ return (
   
  <Card.Body>
     <Card.Title>
-<Jumbotron fluid className="main row d-flex justify-content-center m-auto p-auto vertical-center" style={{ backgroundColor: "#FFC107", width: '60rem' , height:'10rem'}}>
-  <Container>
-    <h1 className="text-center">About <GiGiftOfKnowledge/> <GiOwl/> <GiAnarchy/> <GiByzantinTemple/> <FaHatWizard/>Mim</h1>
-    
-  </Container>
-</Jumbotron>
 
     </Card.Title>
     <Card.Text>
-   <h5 className="p-5">
+   <p className="p-5">
   As there are parents in our development team, we know how hard it can be to make sure our kids are getting the enrichment they need
   to succeed in school. With the current pandemic, many children will struggle with getting the educational stimulation they need from home.
   We developed Learn and Play to be a tool parents could use to bridge that gap. All of our lessons have been currated by parents. We look forward to building a relationship with our audience so that we can bring many new features 
   to our program, so that we can further serve your family. 
 
 
-   </h5>
+   </p>
     </Card.Text>
      </Card.Body>
      <div class="card-footer text-muted text-center">
