@@ -7,7 +7,7 @@ import { FaHome } from "react-icons/fa";
 import { GiShinyApple } from "react-icons/gi";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { GiLightBulb } from "react-icons/gi";
-import { GiOwl } from "react-icons/gi";
+// import { GiOwl } from "react-icons/gi";
 // import Jumbotron from 'react-bootstrap/Jumbotron';
 // import Container from "react-bootstrap/Container";
 
