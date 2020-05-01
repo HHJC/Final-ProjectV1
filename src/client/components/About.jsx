@@ -39,7 +39,7 @@ return (
      <div class="card-footer text-muted text-center">
       
     Contact Us  <br/>
-    <MdEmail /> Team@MIMknowledge.com
+    <MdEmail />pizzavariable@gmail.com
   </div>
 </Card>
 </div>
