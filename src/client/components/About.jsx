@@ -45,7 +45,7 @@ return (
 </div>
 
 
-mim-learning-tool
+
 
 
     </Container>
